@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sheets to JSON converter</title>
+<style>
+  :root { --bg:#15171c; --surface:#1d2026; --border:#2a2d34; --text:#ece7db; --muted:#8b8d94; --gold:#c2983a; --ok:#6ea883; --bad:#e0938c; }
+  * { box-sizing: border-box; }
+  body { font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; background: var(--bg); color: var(--text); max-width: 760px; margin: 0 auto; padding: 28px 18px 60px; line-height: 1.5; }
+  h1 { font-size: 1.5rem; margin: 0 0 6px; }
+  h2 { font-size: 1rem; margin: 28px 0 8px; }
+  p { color: var(--muted); margin: 0 0 16px; }
+  .row { display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 18px; }
+  button { font: inherit; font-weight: 700; padding: 12px 18px; border-radius: 6px; border: 0; cursor: pointer; background: var(--gold); color: #10131a; }
+  button:disabled { background: var(--border); color: #6b6d73; cursor: not-allowed; }
+  table { width: 100%; border-collapse: collapse; background: var(--surface); border: 1px solid var(--border); border-radius: 6px; overflow: hidden; }
+  th, td { text-align: left; padding: 9px 12px; border-bottom: 1px solid var(--border); font-size: 0.88rem; }
+  th { color: var(--muted); font-weight: 600; }
+  tr:last-child td { border-bottom: 0; }
+  .ok { color: var(--ok); }
+  .bad { color: var(--bad); }
+  a { color: var(--gold); }
+  #leagues { background: var(--surface); border: 1px solid var(--border); border-radius: 6px; padding: 12px; font-size: 0.88rem; display: none; }
+  #leagues div { display: flex; justify-content: space-between; padding: 2px 0; }
+</style>
+</head>
+<body>
+
+<h1>Sheets to JSON converter</h1>
+<p>Press step 1. This page downloads each of your Google Sheets and converts it to a JSON file, using the same reading code as your game. Then press step 2 to save everything as one zip.</p>
+
+<div class="row">
+  <button id="go">1. Fetch and convert all sheets</button>
+  <button id="zip" disabled>2. Download data.zip</button>
+</div>
+
+<table>
+  <thead><tr><th>File</th><th>Rows</th><th>Size</th><th>Status</th></tr></thead>
+  <tbody id="tbody"></tbody>
+</table>
+
+<h2>League column in the players sheet</h2>
+<p>Your game's "England-based players" option only keeps players whose league is Premier Division, Second Tier, Third Tier or Fourth Tier (plus free agents). If your sheet uses different names, they will show up here.</p>
+<div id="leagues"></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+<script>
+  const BASE = 'https://docs.google.com/spreadsheets/d/1SdMWyvhvEHaHHtyFJ6dJ9cWd4Tk1eoT7z_72Qo25Z1s/export?format=csv&gid=';
+  const SHEETS = [
+    { file: 'players.json',          gid: '1700000678' },
+    { file: 'managers.json',         gid: '1913417728' },
+    { file: 'regen-names.json',      gid: '1633772993' },
+    { file: 'academy-c.json',        gid: '1534549212' },
+    { file: 'academy-b.json',        gid: '1622581805' },
+    { file: 'academy-a.json',        gid: '2029355199' },
+    { file: 'recruitment.json',      gid: '1961341579' },
+    { file: 'legends.json',          gid: '1739147482' },
+    { file: 'regen-managers.json',   gid: '513765195' },
+    { file: 'daily.json',            gid: '1492410151' },
+    { file: 'classics.json',         gid: '1306883531' },
+    { file: 'classic-managers.json', gid: '86803547' }
+  ];
+
+  // Exactly the same CSV reader your game uses
+  function parseCSV(text) {
+    const result = []; let row = [], cell = '', inQuotes = false;
+    for (let i = 0; i < text.length; i++) {
+      const char = text[i], nextChar = text[i + 1];
+      if (char === '"') {
+        if (inQuotes && nextChar === '"') { cell += '"'; i++; } else { inQuotes = !inQuotes; }
+      } else if (char === ',' && !inQuotes) {
+        row.push(cell.trim()); cell = '';
+      } else if ((char === '\n' || char === '\r') && !inQuotes) {
+        if (char === '\r' && nextChar === '\n') i++;
+        row.push(cell.trim()); result.push(row); row = []; cell = '';
+      } else { cell += char; }
+    }
+    row.push(cell.trim());
+    if (row.length > 0 && row.some(c => c !== '')) result.push(row);
+    return result;
+  }
+
+  const tbody = document.getElementById('tbody');
+  const goBtn = document.getElementById('go');
+  const zipBtn = document.getElementById('zip');
+  const results = {};   // file name -> JSON text
+
+  SHEETS.forEach(s => {
+    const tr = document.createElement('tr');
+    tr.innerHTML = '<td></td><td>-</td><td>-</td><td>Waiting</td>';
+    tr.children[0].textContent = s.file;
+    s.tr = tr;
+    tbody.appendChild(tr);
+  });
+
+  function setRow(s, rows, size, text, cls) {
+    s.tr.children[1].textContent = rows;
+    s.tr.children[2].textContent = size;
+    s.tr.children[3].textContent = text;
+    s.tr.children[3].className = cls || '';
+  }
+
+  function download(blob, name) {
+    const a = document.createElement('a');
+    a.href = URL.createObjectURL(blob);
+    a.download = name;
+    document.body.appendChild(a);
+    a.click();
+    a.remove();
+    setTimeout(() => URL.revokeObjectURL(a.href), 5000);
+  }
+
+  goBtn.addEventListener('click', async () => {
+    goBtn.disabled = true; zipBtn.disabled = true;
+    let failures = 0;
+
+    // One at a time, so Google doesn't throttle us
+    for (const s of SHEETS) {
+      setRow(s, '-', '-', 'Downloading…');
+      try {
+        const res = await fetch(BASE + s.gid);
+        if (!res.ok) throw new Error('HTTP ' + res.status);
+        const text = await res.text();
+        if (text.trimStart().startsWith('<')) throw new Error('Got a web page, not data. Is the sheet shared as "Anyone with the link can view"?');
+        const rows = parseCSV(text);
+        const json = JSON.stringify(rows);
+        results[s.file] = json;
+        setRow(s, rows.length.toLocaleString(), (json.length / 1024 / 1024).toFixed(2) + ' MB', 'Done', 'ok');
+
+        if (s.file === 'players.json') showLeagues(rows);
+      } catch (err) {
+        failures++;
+        setRow(s, '-', '-', 'Failed: ' + err.message, 'bad');
+      }
+    }
+
+    goBtn.disabled = false;
+    goBtn.textContent = failures ? 'Try the failed ones again (press to redo all)' : '1. Fetch and convert all sheets (done)';
+    zipBtn.disabled = Object.keys(results).length === 0;
+  });
+
+  function showLeagues(rows) {
+    const counts = {};
+    for (let i = 1; i < rows.length; i++) {
+      if (!rows[i] || rows[i].length < 15 || !rows[i][12]) continue;   // same rule the game uses to skip bad rows
+      const lg = rows[i][7] || '(blank)';
+      counts[lg] = (counts[lg] || 0) + 1;
+    }
+    const box = document.getElementById('leagues');
+    box.innerHTML = '';
+    Object.entries(counts).sort((a, b) => b[1] - a[1]).forEach(([lg, n]) => {
+      const d = document.createElement('div');
+      const l = document.createElement('span'); l.textContent = lg;
+      const c = document.createElement('span'); c.textContent = n.toLocaleString() + ' players';
+      d.appendChild(l); d.appendChild(c);
+      box.appendChild(d);
+    });
+    box.style.display = 'block';
+  }
+
+  zipBtn.addEventListener('click', async () => {
+    if (typeof JSZip === 'undefined') { alert('The zip tool could not load. Check your internet connection and reload this page.'); return; }
+    const zip = new JSZip();
+    const folder = zip.folder('data');
+    Object.keys(results).forEach(name => folder.file(name, results[name]));
+    const blob = await zip.generateAsync({ type: 'blob', compression: 'DEFLATE' });
+    download(blob, 'data.zip');
+  });
+</script>
+</body>
+</html>
