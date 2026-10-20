@@ -1561,8 +1561,9 @@ playerSeasonLog = {}; careerEndShown = false;
 
         async function loadCoreData() {
             try {
-                allPlayers = []; managerDB = []; regenManagerPool = [];
-                const [playerRes, mgrRes] = await Promise.all([
+allPlayers = []; managerDB = []; regenManagerPool = [];
+const regenPromise = loadRegenManagers();   // start this download now, alongside the others
+const [playerRes, mgrRes] = await Promise.all([
                     fetch(PLAYER_CSV_URL).catch(()=>null), fetch(MANAGER_CSV_URL).catch(()=>null)
                 ]);
 
@@ -1687,7 +1688,7 @@ let rawStyle = (row.length > 34 && row[34]) ? row[34].trim() : "";
                 }
 
                 managerDB = managerDB.filter(m => !m.isRegen);
-                await loadRegenManagers();
+                await regenPromise;
 
                 database = [...allPlayers];
                 if (!allPlayers.length) throw new Error('No players loaded');
@@ -6669,6 +6670,7 @@ async function loadClassics() {
                     <div class="daily-date">Loading challenge&hellip;</div>
                 </div>`);
             await Promise.all([ensureCoreData(), ensureExtras(), ensureDailyData()]);
+ensureAcademyData();   // loads in the background while they read the challenge
             if (!allPlayers.length || !dailyChallenges.length) {
                 document.getElementById('daily-modal').classList.remove('active');
                 showNotification("Daily challenges couldn't be loaded.", "error");
@@ -8241,8 +8243,11 @@ resetForNextSeason = function () {
 window.onload = () => {
     document.getElementById('loading-screen').style.display = 'none';
     document.getElementById('setup-screen').style.display = 'flex';
-};
 
+    // Start downloading game data in the background
+    ensureDailyData();
+    ensureCoreData().then(() => { ensureExtras(); ensureAcademyData(); });
+};
     </script>
 </body>
 </html>
