@@ -9,7 +9,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
-    <title>Run The Club</title>
+    <title>Run This Club</title>
     <style>
     :root {
     --bg-color: #15171c; --surface-color: rgba(29, 32, 38, 0.8); --primary-color: #7d9bc1;
@@ -635,6 +635,12 @@ button:disabled { opacity: 0.6; }
         </div>
     </div>
 
+<div class="modal-overlay" id="daily-modal">
+    <div class="modal">
+        <div id="daily-modal-content"></div>
+    </div>
+</div>
+
     <div id="loading-screen">
         <div class="loader"></div>
         <h2>Loading</h2>
@@ -642,7 +648,7 @@ button:disabled { opacity: 0.6; }
     </div>
 
 <div id="setup-screen">
-    <h1 class="home-title">Run The Club</h1>
+    <h1 class="home-title">Run This Club</h1>
 
     <div class="club-row">
         <input type="text" id="club-name-input" placeholder="Name your club" maxlength="20">
@@ -1005,6 +1011,7 @@ button:disabled { opacity: 0.6; }
     </div>
 
 </div>
+</div>
 
 <div id="screen-career" class="screen">
     <h2 class="career-heading">Trophy Cabinet</h2>
@@ -1063,12 +1070,6 @@ button:disabled { opacity: 0.6; }
             <div id="manager-modal-content" style="display:flex; flex-direction:column; width:100%;"></div>
         </div>
     </div>
-
-<div class="modal-overlay" id="daily-modal">
-    <div class="modal">
-        <div id="daily-modal-content"></div>
-    </div>
-</div>
 
 <div id="draft-screen" style="display:none; position:absolute; top:0; left:0; right:0; bottom:0; z-index:150; background:var(--bg-color); overflow-y:auto; padding:20px 15px;"></div>
 
