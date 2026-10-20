@@ -1442,16 +1442,16 @@ playerSeasonLog = {}; careerEndShown = false;
             return Math.max(100000, Math.round(val / 100000) * 100000);
         }
 
-        const PLAYER_CSV_URL = 'https://docs.google.com/spreadsheets/d/1SdMWyvhvEHaHHtyFJ6dJ9cWd4Tk1eoT7z_72Qo25Z1s/export?format=csv&gid=1700000678';
-        const MANAGER_CSV_URL = 'https://docs.google.com/spreadsheets/d/1SdMWyvhvEHaHHtyFJ6dJ9cWd4Tk1eoT7z_72Qo25Z1s/export?format=csv&gid=1913417728'; 
-        const REGEN_CSV_URL = 'https://docs.google.com/spreadsheets/d/1SdMWyvhvEHaHHtyFJ6dJ9cWd4Tk1eoT7z_72Qo25Z1s/export?format=csv&gid=1633772993';
-        const ACADEMY_C_URL = 'https://docs.google.com/spreadsheets/d/1SdMWyvhvEHaHHtyFJ6dJ9cWd4Tk1eoT7z_72Qo25Z1s/export?format=csv&gid=1534549212';
-        const ACADEMY_B_URL = 'https://docs.google.com/spreadsheets/d/1SdMWyvhvEHaHHtyFJ6dJ9cWd4Tk1eoT7z_72Qo25Z1s/export?format=csv&gid=1622581805';
-        const ACADEMY_A_URL = 'https://docs.google.com/spreadsheets/d/1SdMWyvhvEHaHHtyFJ6dJ9cWd4Tk1eoT7z_72Qo25Z1s/export?format=csv&gid=2029355199';
-        const RECRUITMENT_URL = 'https://docs.google.com/spreadsheets/d/1SdMWyvhvEHaHHtyFJ6dJ9cWd4Tk1eoT7z_72Qo25Z1s/export?format=csv&gid=1961341579';
+const PLAYER_CSV_URL = 'data/players.json';
+const MANAGER_CSV_URL = 'data/managers.json';
+const REGEN_CSV_URL = 'data/regen-names.json';
+const ACADEMY_C_URL = 'data/academy-c.json';
+const ACADEMY_B_URL = 'data/academy-b.json';
+const ACADEMY_A_URL = 'data/academy-a.json';
+const RECRUITMENT_URL = 'data/recruitment.json';
 
-        function parseCSV(text) {
-            const result = []; let row = [], cell = '', inQuotes = false;
+function parseCSV(text) {
+    if (text.trimStart().startsWith('[[')) return JSON.parse(text);   // JSON files already hold the rows
             for (let i = 0; i < text.length; i++) {
                 const char = text[i], nextChar = text[i + 1];
                 if (char === '"') {
@@ -1499,7 +1499,7 @@ playerSeasonLog = {}; careerEndShown = false;
             return pool;
         }
 
-        const LEGENDS_CSV_URL = 'https://docs.google.com/spreadsheets/d/1SdMWyvhvEHaHHtyFJ6dJ9cWd4Tk1eoT7z_72Qo25Z1s/export?format=csv&gid=1739147482';
+const LEGENDS_CSV_URL = 'data/legends.json';
 
         async function loadLegends() {
             try {
@@ -2742,7 +2742,7 @@ if(!infra.manager) {
         function closeManagerModal() { document.getElementById('manager-modal').classList.remove('active'); }
 
         // --- REGEN MANAGERS ---
-        const REGEN_MGR_URL = 'https://docs.google.com/spreadsheets/d/1SdMWyvhvEHaHHtyFJ6dJ9cWd4Tk1eoT7z_72Qo25Z1s/export?format=csv&gid=513765195';
+const REGEN_MGR_URL = 'data/regen-managers.json';
         let regenManagerPool = [], retiredManagers = [];
 
         async function loadRegenManagers() {
@@ -6505,7 +6505,7 @@ playerSeasonLog = {}; careerEndShown = false;
         }
 
         // ---------- DAILY CHALLENGE ----------
-        const DAILY_CSV_URL = 'https://docs.google.com/spreadsheets/d/1SdMWyvhvEHaHHtyFJ6dJ9cWd4Tk1eoT7z_72Qo25Z1s/export?format=csv&gid=1492410151';
+const DAILY_CSV_URL = 'data/daily.json';
         let dailyRules = { transferBan: 0, pointsDeduction: 0 };
         let dailyChallenges = [], dailyActive = null;
 
@@ -6537,9 +6537,10 @@ playerSeasonLog = {}; careerEndShown = false;
         }
 
 // ---------- CLASSIC SQUADS (third sheet) ----------
-const CLASSICS_CSV_URL = 'https://docs.google.com/spreadsheets/d/1SdMWyvhvEHaHHtyFJ6dJ9cWd4Tk1eoT7z_72Qo25Z1s/export?format=csv&gid=1306883531';
+const CLASSICS_CSV_URL = 'data/classics.json';
+
 let classicPool = [];
-const CLASSIC_MGR_CSV_URL = 'https://docs.google.com/spreadsheets/d/1SdMWyvhvEHaHHtyFJ6dJ9cWd4Tk1eoT7z_72Qo25Z1s/export?format=csv&gid=86803547';
+const CLASSIC_MGR_CSV_URL = 'data/classic-managers.json';
 let classicManagerPool = [];
 
 async function loadClassicManagers() {
@@ -6663,44 +6664,60 @@ async function loadClassics() {
             return new Intl.DateTimeFormat('en-CA', { timeZone: 'Europe/London' }).format(new Date());   // BST/GMT
         }
 
-        async function openDailyChallenge(dateStr) {
-            dailyModalShow(`
-                <div style="text-align:center; padding:30px 10px;">
-                    <div class="loader" style="margin:0 auto 15px;"></div>
-                    <div class="daily-date">Loading challenge&hellip;</div>
-                </div>`);
-            await Promise.all([ensureCoreData(), ensureExtras(), ensureDailyData()]);
-ensureAcademyData();   // loads in the background while they read the challenge
-            if (!allPlayers.length || !dailyChallenges.length) {
-                document.getElementById('daily-modal').classList.remove('active');
-                showNotification("Daily challenges couldn't be loaded.", "error");
-                return;
-            }
+async function openDailyChallenge(dateStr) {
+    dailyModalShow(`
+        <div style="text-align:center; padding:30px 10px;">
+            <div class="loader" style="margin:0 auto 15px;"></div>
+            <div class="daily-date">Loading challenge&hellip;</div>
+        </div>`);
 
-            const today = ukToday();
-            const c = dailyChallenges.find(x => x.date === (dateStr || today));
-            if (!c) { showPastChallenges("There's no challenge for today yet. Check back tomorrow, or play one from the past."); return; }
+    // Step 1: only the small daily-challenge sheet, so the screen appears quickly
+    await ensureDailyData();
+    if (!dailyChallenges.length) {
+        document.getElementById('daily-modal').classList.remove('active');
+        showNotification("Daily challenges couldn't be loaded.", "error");
+        return;
+    }
 
-            dailyActive = c;
-            const mgr = findDailyManager(c.mid);
-            dailyModalShow(`
-                <div class="daily-date">${c.date < today ? 'Past Challenge' : 'Daily Challenge'} &middot; ${c.date}</div>
-                <div class="daily-title">${c.title}</div>
-                <div class="daily-info">${c.info}</div>
-                <div class="daily-facts">
-                    <div class="daily-fact"><span>Transfers</span><span>${c.transferBan ? 'Transfer ban for ' + c.transferBan + ' season' + (c.transferBan === 1 ? '' : 's') + ', then 3 a season' : (c.transfers ? c.transfers + ' in season 1' : 'None in season 1') + ', then 3 a season'}</span></div>
-                    ${c.pointsDeduction ? `<div class="daily-fact"><span>Points deduction</span><span>-${c.pointsDeduction} points in season 1</span></div>` : ''}
-                    <div class="daily-fact"><span>Wage room</span><span>+£${Math.round(c.wage / 1000)}k/w on top of the squad</span></div>
-                    <div class="daily-fact"><span>Manager</span><span>${mgr ? mgr.name : 'Your choice'}</span></div>
-                    <div class="daily-fact"><span>Squad</span><span>${c.ids.length} players, set for you</span></div>
-                    <div class="daily-fact"><span>Facilities</span><span>20k stadium, Second Tier training, Cat. C academy, standard analyst</span></div>
-                </div>
-                <div class="modal-btn-group">
-                    <button class="btn-warning" onclick="startDaily()">Start Challenge</button>
-                    <button class="btn-secondary" onclick="showPastChallenges()">Past Challenges</button>
-                    <button class="btn-secondary" onclick="document.getElementById('daily-modal').classList.remove('active')">Back</button>
-                </div>`);
-        }
+    const today = ukToday();
+    const c = dailyChallenges.find(x => x.date === (dateStr || today));
+    if (!c) { showPastChallenges("There's no challenge for today yet. Check back tomorrow, or play one from the past."); return; }
+
+    dailyActive = c;
+    dailyModalShow(`
+        <div class="daily-date">${c.date < today ? 'Past Challenge' : 'Daily Challenge'} &middot; ${c.date}</div>
+        <div class="daily-title">${c.title}</div>
+        <div class="daily-info">${c.info}</div>
+        <div class="daily-facts">
+            <div class="daily-fact"><span>Transfers</span><span>${c.transferBan ? 'Transfer ban for ' + c.transferBan + ' season' + (c.transferBan === 1 ? '' : 's') + ', then 3 a season' : (c.transfers ? c.transfers + ' in season 1' : 'None in season 1') + ', then 3 a season'}</span></div>
+            ${c.pointsDeduction ? `<div class="daily-fact"><span>Points deduction</span><span>-${c.pointsDeduction} points in season 1</span></div>` : ''}
+            <div class="daily-fact"><span>Wage room</span><span>+£${Math.round(c.wage / 1000)}k/w on top of the squad</span></div>
+            <div class="daily-fact"><span>Manager</span><span id="daily-mgr-name">Loading&hellip;</span></div>
+            <div class="daily-fact"><span>Squad</span><span>${c.ids.length} players, set for you</span></div>
+            <div class="daily-fact"><span>Facilities</span><span>20k stadium, Second Tier training, Cat. C academy, standard analyst</span></div>
+        </div>
+        <div class="modal-btn-group">
+            <button id="daily-start-btn" class="btn-warning" onclick="startDaily()" disabled>Loading squad&hellip;</button>
+            <button class="btn-secondary" onclick="showPastChallenges()">Past Challenges</button>
+            <button class="btn-secondary" onclick="document.getElementById('daily-modal').classList.remove('active')">Back</button>
+        </div>`);
+
+    // Step 2: the big downloads carry on while they read the challenge
+    await Promise.all([ensureCoreData(), ensureExtras()]);
+    if (dailyActive !== c) return;   // they have moved on to a different challenge
+
+    const btn = document.getElementById('daily-start-btn');
+    if (!allPlayers.length) {
+        showNotification("Couldn't load the players. Please try again.", "error");
+        if (btn) btn.innerText = "Couldn't load squad";
+        return;
+    }
+    const mgr = findDailyManager(c.mid);
+    const nameEl = document.getElementById('daily-mgr-name');
+    if (nameEl) nameEl.innerText = mgr ? mgr.name : 'Your choice';
+    if (btn) { btn.disabled = false; btn.innerText = 'Start Challenge'; }
+    ensureAcademyData();   // so pressing Start is quick
+}
 
         function dailyModalShow(html) {
             document.getElementById('daily-modal-content').innerHTML = html;
