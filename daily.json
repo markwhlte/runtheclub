@@ -1,0 +1,4382 @@
+[
+ {
+   "Date": "20/10/2026",
+   "Title": {
+      "team name": "Dynamo Dead Ball"
+   },
+   "Info": "Starting squad consists of players proficient from corners, free-kicks or throw-ins",
+   "Player IDs": "C1111 P2935 P225 P3043 P3480 P1650 P2894 P1761 P576 P1041 P827 P848 P3687 P3760 P845 P1552 P3509 P3651",
+   "Manager": "M110",
+   "Wage budget": "£200,000",
+   "Transfer budget": "£0",
+   "Transfers": 0
+},
+ {
+   "Date": "21/10/2026",
+   "Title": {
+      "team name": "Super Lig Superstars"
+   },
+   "Info": "Starting squad contains players from the Turkish Super Lig",
+   "Player IDs": "P2656 P3227 P3093 P3487 P3046 P3211 P70 P3067 P2550 P3747 P1966 P3055 P2690 P1743 P2263 P92 P571 P3516",
+   "Manager": "M120",
+   "Wage budget": "£100,000",
+   "Transfer budget": "£50,000,000",
+   "Transfers": 0
+},
+ {
+   "Date": "22/10/2026",
+   "Title": {
+      "team name": "Wonderkids United"
+   },
+   "Info": "Starting squad contains wonderkid prospects",
+   "Player IDs": "P799 P1011 P3101 P375 P2353 P3632 P3535 P1976 P2336 P119 P2833 P2753 P2907 P3458 P3507 P3416 P2813 P3719",
+   "Manager": "M125",
+   "Wage budget": "£100,000",
+   "Transfer budget": "£80,000,000",
+   "Transfers": 2
+},
+ {
+   "Date": "23/10/2026",
+   "Title": {
+      "team name": "Viva Bobby's Blaugrana"
+   },
+   "Info": "Barcelona's 1996/97 team have been dropped into your starting squad",
+   "Player IDs": "C361 C362 C363 C364 C365 C366 C367 C368 C369 C370 C371 C372 C373 C374 C375 C376 C377 C378",
+   "Manager": "CM7",
+   "Wage budget": "£0",
+   "Transfer budget": "£0",
+   "Transfers": 0
+},
+ {
+   "Date": "24/10/2026",
+   "Title": {
+      "team name": "Class of '95"
+   },
+   "Info": "Starting squad consists of players born in 1995",
+   "Player IDs": "P1798 P3487 P1348 P2226 P2012 P2920 P2008 P2019 P2707 P1388 P3260 P1222 P1534 P1280 P696 P668 P2383 P3227",
+   "Manager": "M12",
+   "Wage budget": "£200,000",
+   "Transfer budget": "£50,000,000",
+   "Transfers": 0
+},
+ {
+   "Date": "25/10/2026",
+   "Title": {
+      "team name": "78 City"
+   },
+   "Info": "Starting squad consists of 78-rated players",
+   "Player IDs": "P143 P200 P201 P304 P361 P374 P390 P412 P427 P465 P478 P485 P539 P542 P868 P947 P963 P993",
+   "Manager": "M97",
+   "Wage budget": "£100,000",
+   "Transfer budget": "£50,000,000",
+   "Transfers": 2
+},
+ {
+   "Date": "26/10/2026",
+   "Title": {
+      "team name": "Viva Big Sam"
+   },
+   "Info": "Bolton's 2004/05 team have been dropped into your starting squad",
+   "Player IDs": "C1 C10 C11 C12 C13 C14 C15 C16 C17 C18 C2 C3 C4 C5 C6 C7 C8 C9",
+   "Manager": "CM11",
+   "Wage budget": "£0",
+   "Transfer budget": "£0",
+   "Transfers": 0
+},
+ {
+   "Date": "27/10/2026",
+   "Title": {
+      "team name": "Pushing for Europe"
+   },
+   "Info": "Starting squad consists of a mixed-ability group able to push for a European place",
+   "Player IDs": "P3387 P898 P346 P491 P542 P2294 P2901 P3493 P2934 P289 P3029 P1362 P1148 P2822 P684 P3074 P1954 P363",
+   "Manager": "",
+   "Wage budget": "£100,000",
+   "Transfer budget": "£0",
+   "Transfers": 0
+},
+ {
+   "Date": "28/10/2026",
+   "Title": {
+      "team name": "Inter Mononym"
+   },
+   "Info": "Starting squad contains players known by one name",
+   "Player IDs": "P2743 P2964 P3618 P97 P2143 P1681 P2418 P976 P1141 P1054 P498 P146 P774 P387 P656 P157 P2993 P1053",
+   "Manager": "M64",
+   "Wage budget": "£100,000",
+   "Transfer budget": "£50,000,000",
+   "Transfers": 0
+},
+ {
+   "Date": "29/10/2026",
+   "Title": {
+      "team name": "Spanish core"
+   },
+   "Info": "Starting squad only contains four world-class Spaniards",
+   "Player IDs": "P2743 P2903 P1186 L97",
+   "Manager": "",
+   "Wage budget": "£400,000",
+   "Transfer budget": "£100,000,000",
+   "Transfers": 3
+},
+ {
+   "Date": "30/10/2026",
+   "Title": {
+      "team name": "Gundogan's XVIII"
+   },
+   "Info": "Just one former teammate, but ample investment - and Ilkay Gundogan taking his first managerial job",
+   "Player IDs": "P1394",
+   "Manager": "CM68",
+   "Wage budget": "£750,000",
+   "Transfer budget": "300,000,000",
+   "Transfers": 17
+},
+ {
+   "Date": "31/10/2026",
+   "Title": {
+      "team name": "The Barclaysmen"
+   },
+   "Info": "A selection of classic Barclaysmen from yesteryear have been dropped into your starting squad",
+   "Player IDs": "C73 C74 C84 C10 C12 C18 C208 C706 C713 C743 C744 C156 C261 C341 C178 C24 C34 L46",
+   "Manager": "",
+   "Wage budget": "£100,000",
+   "Transfer budget": "£0",
+   "Transfers": 0
+},
+ {
+   "Date": "01/11/2026",
+   "Title": {
+      "team name": "Joses, etc."
+   },
+   "Info": "Starting squad consists of players called Joseph, Jose, Josep or any equivalent",
+   "Player IDs": "P2156 P1367 P3581 P3027 P3684 P2963 P3004 P3708 P177 P761 P2160 P705 P144 P1316 P2890 P1321 P484 P2636",
+   "Manager": "M85",
+   "Wage budget": "£100,000",
+   "Transfer budget": "£50,000,000",
+   "Transfers": 0
+},
+ {
+   "Date": "02/11/2026",
+   "Title": {
+      "team name": "Viva The Impossible Dream"
+   },
+   "Info": "Leicester's 2015/16 players have been dropped into your starting squad",
+   "Player IDs": "C253 C254 C255 C256 C257 C258 C259 C260 C261 C262 C263 C264 C265 C266 C267 C268 C269 C270",
+   "Manager": "CM28",
+   "Wage budget": "£0",
+   "Transfer budget": "£0",
+   "Transfers": 0
+},
+ {
+   "Date": "03/11/2026",
+   "Title": {
+      "team name": "The Boys in Green"
+   },
+   "Info": "Starting squad consists of Republic of Ireland players",
+   "Player IDs": "L44 P1772 P733 P2725 P804 P978 P3346 P1184 P2123 P2569 P1062 P324 P516 P1822 P2598 P2341 P2230 P3342",
+   "Manager": "M55",
+   "Wage budget": "£100,000",
+   "Transfer budget": "£50,000,000",
+   "Transfers": 0
+},
+ {
+   "Date": "04/11/2026",
+   "Title": {
+      "team name": "Giant City"
+   },
+   "Info": "Starting squad is over 6ft 4in",
+   "Player IDs": "P1294 P988 P3170 P542 P236 P3010 L39 P1279 P855 P3548 P2569 P2981 P2310 P2914 P3697 P2050 P2625 P2938",
+   "Manager": "M53",
+   "Wage budget": "£100,000",
+   "Transfer budget": "£50,000,000",
+   "Transfers": 0
+},
+ {
+   "Date": "05/11/2026",
+   "Title": {
+      "team name": "House of the Dragon"
+   },
+   "Info": "Starting squad consists of Welshmen",
+   "Player IDs": "L3 L77 P3687 P132 P2954 P3681 P510 P2963 P837 P1685 P1651 P2350 P3648 P1587 P3180 P840 P721 P741",
+   "Manager": "M1",
+   "Wage budget": "£100,000",
+   "Transfer budget": "£50,000,000",
+   "Transfers": 0
+},
+ {
+   "Date": "06/11/2026",
+   "Title": {
+      "team name": "Viva Golden Generation"
+   },
+   "Info": "England's 2006 World Cup players have been dropped into your starting squad",
+   "Player IDs": "C559 C560 C561 C562 C563 C564 C565 C566 C567 C568 C569 C570 C571 C572 C573 C574 C575 C576",
+   "Manager": "CM21",
+   "Wage budget": "£0",
+   "Transfer budget": "£0",
+   "Transfers": 0
+},
+ {
+   "Date": "07/11/2026",
+   "Title": {
+      "team name": "Pre-Prem FC"
+   },
+   "Info": "A selection of players have been dropped into your starting squad from their days before joining Premier League clubs",
+   "Player IDs": "C38 C42 C346 C352 C372 C391 C417 C450 C458 C492 C657 C675 C873 C891 C915 C963 C574 C1031",
+   "Manager": "CM1",
+   "Wage budget": "£100,000",
+   "Transfer budget": "£0",
+   "Transfers": 0
+},
+ {
+   "Date": "08/11/2026",
+   "Title": {
+      "team name": "Championship XI"
+   },
+   "Info": "Starting squad consists of Championship players",
+   "Player IDs": "P1361 P1059 P1794 P174 P3642 P3027 P1505 P645 P1140 P2785 P1888 P1705 P3584 P1409 P1844 P2954 P2810 P2886",
+   "Manager": "M82",
+   "Wage budget": "£400,000",
+   "Transfer budget": "£100,000,000",
+   "Transfers": 0
+},
+ {
+   "Date": "09/11/2026",
+   "Title": {
+      "team name": "Midtable FC"
+   },
+   "Info": "Starting squad consists of a mixed-ability group who should scrape midtable",
+   "Player IDs": "P3387 P184 P1460 P889 P66 P2294 P694 P1392 P638 P3797 P3581 P3782 P1818 P2860 P3074 P1346 P1468 P3624",
+   "Manager": "",
+   "Wage budget": "£100,000",
+   "Transfer budget": "£0",
+   "Transfers": 0
+},
+ {
+   "Date": "10/11/2026",
+   "Title": {
+      "team name": "AC Azzurri"
+   },
+   "Info": "Starting squad consists of Italians",
+   "Player IDs": "L55 L66 P988 P572 P591 P2020 P3438 P3113 P2822 P2315 P3499 P3007 P2708 P1090 P2646 P18 P2791 P2750",
+   "Manager": "M11",
+   "Wage budget": "£100,000",
+   "Transfer budget": "£50,000,000",
+   "Transfers": 0
+},
+ {
+   "Date": "11/11/2026",
+   "Title": {
+      "team name": "Starts and Ends"
+   },
+   "Info": "Starting squad consists of players whose first name and surname start with the same letter",
+   "Player IDs": "P174 P3488 P3086 P108 P3308 P83 P3491 P3366 P142 P107 P1614 P2942 P1148 P3 P3342 P1645 P834 P3024",
+   "Manager": "M107",
+   "Wage budget": "£100,000",
+   "Transfer budget": "£0",
+   "Transfers": 0
+},
+ {
+   "Date": "12/11/2026",
+   "Title": {
+      "team name": "Viva Rossoneri"
+   },
+   "Info": "Milan's 2008/09 players have been dropped into your starting squad",
+   "Player IDs": "C470 C471 C472 C473 C474 C475 C476 C477 C478 C479 C480 C481 C482 C483 C484 C485 C486 C487",
+   "Manager": "CM35",
+   "Wage budget": "£0",
+   "Transfer budget": "£0",
+   "Transfers": 0
+},
+ {
+   "Date": "13/11/2026",
+   "Title": {
+      "team name": "Strength FC"
+   },
+   "Info": "Starting squad contains players with elite physicality",
+   "Player IDs": "P2935 P2625 P3013 P1681 P2986 P3254 P2289 P2293 P1030 P3381 P963 P1313 P446 P2310 P3161 P3471 L95 P1792",
+   "Manager": "M51",
+   "Wage budget": "£100,000",
+   "Transfer budget": "£50,000,000",
+   "Transfers": 0
+},
+ {
+   "Date": "14/11/2026",
+   "Title": {
+      "team name": "Barclaysmen"
+   },
+   "Info": "A selection of classic Barclaysmen have been dropped into your starting squad",
+   "Player IDs": "C73 C74 C84 C10 C12 C18 C706 C713 C743 C744 C156 C261 C341 C178 C24 C34 L46 C411",
+   "Manager": "",
+   "Wage budget": "£0",
+   "Transfer budget": "£0",
+   "Transfers": 0
+},
+ {
+   "Date": "15/11/2026",
+   "Title": {
+      "team name": "Jose's band back together"
+   },
+   "Info": "Starting squad consists of former Jose Mourinho players",
+   "Player IDs": "L1 L28 P1740 P2894 P2240 P792 P17 P2177 P2091 P1043 P3227 P3489 P205 P156 P942 P822 P2475 P70",
+   "Manager": "M50",
+   "Wage budget": "£100,000",
+   "Transfer budget": "£50,000,000",
+   "Transfers": 0
+},
+ {
+   "Date": "16/11/2026",
+   "Title": {
+      "team name": "99s and 70s"
+   },
+   "Info": "Starting squad contains two 99-related players, and the rest are all rated low 70s",
+   "Player IDs": "L56 L64 P1774 P2037 P1300 P2458 P1577 P861 P2336 P1318 P462 P1452 P3779 P62 P1292 P3030 P1541 P2634",
+   "Manager": "M107",
+   "Wage budget": "£70,000",
+   "Transfer budget": "£9,900,000",
+   "Transfers": 1
+},
+ {
+   "Date": "17/11/2026",
+   "Title": {
+      "team name": "Midtable FC 2"
+   },
+   "Info": "Starting squad consists of a mixed-ability group who should scrape midtable",
+   "Player IDs": "P2156 P2884 P639 P3578 P3352 P1795 P1016 P3178 P3438 P1743 P289 P1155 P2750 P3046 P973 P33 P3298 P1677",
+   "Manager": "",
+   "Wage budget": "£0",
+   "Transfer budget": "£0",
+   "Transfers": 0
+},
+ {
+   "Date": "18/11/2026",
+   "Title": {
+      "team name": "Forza Italia"
+   },
+   "Info": "Italian players from various points in history have been dropped into your starting squad",
+   "Player IDs": "C47 C208 C285 C338 C383 C456 C478 C488 C835 C839 C869 C875 C51 C90 C170 C459",
+   "Manager": "CM35",
+   "Wage budget": "£0",
+   "Transfer budget": "£0",
+   "Transfers": 0
+},
+ {
+   "Date": "19/11/2026",
+   "Title": {
+      "team name": "Viva Dogues"
+   },
+   "Info": "Lille's 2020/21 team have been dropped into your starting squad",
+   "Player IDs": "C901 C902 C903 C904 C905 C906 C907 C908 C909 C910 C911 C912 C913 C914 C915 C916 C917 C918",
+   "Manager": "CM29",
+   "Wage budget": "£0",
+   "Transfer budget": "£0",
+   "Transfers": 0
+},
+ {
+   "Date": "20/11/2026",
+   "Title": {
+      "team name": "Dutch of Class"
+   },
+   "Info": "Starting squad consists of Dutch players",
+   "Player IDs": "L23 L92 P3424 P1279 P1408 P458 P857 P3587 P2978 P3715 P2943 P3553 P2634 P2591 P332 P2427 P3549 P1500",
+   "Manager": "M27",
+   "Wage budget": "£100,000",
+   "Transfer budget": "£50,000,000",
+   "Transfers": 0
+},
+ {
+   "Date": "21/11/2026",
+   "Title": {
+      "team name": "Kovacic's XVIII"
+   },
+   "Info": "Just one former teammate, but ample investment - and Mateo Kovacic taking his first managerial job",
+   "Player IDs": "P313",
+   "Manager": "CM65",
+   "Wage budget": "£750,000",
+   "Transfer budget": "300,000,000",
+   "Transfers": 17
+},
+ {
+   "Date": "22/11/2026",
+   "Title": {
+      "team name": "English core"
+   },
+   "Info": "Starting squad only contains four world-class English players",
+   "Player IDs": "L21 P2935 P3043 P3480",
+   "Manager": "",
+   "Wage budget": "£400,000",
+   "Transfer budget": "£100,000,000",
+   "Transfers": 3
+},
+ {
+   "Date": "23/11/2026",
+   "Title": {
+      "team name": "One Hit Wonders"
+   },
+   "Info": "Entire starting squad is out of contract at the end of the season",
+   "Player IDs": "P225 P97 P3615 P2559 P526 P2321 P2171 P2315 P236 P3331 P3245 P465 P1401 P485 P3351 P1669 P2019 P831",
+   "Manager": "M113",
+   "Wage budget": "£250,000",
+   "Transfer budget": "£50,000,000",
+   "Transfers": 0
+},
+ {
+   "Date": "24/11/2026",
+   "Title": {
+      "team name": "Viva Heavy Metal"
+   },
+   "Info": "Dortmund's 2012/13 team have been dropped into your starting squad",
+   "Player IDs": "C506 C507 C508 C509 C510 C511 C512 C513 C514 C515 C516 C517 C518 C519 C520 C521 C522 C523",
+   "Manager": "CM12",
+   "Wage budget": "",
+   "Transfer budget": "",
+   "Transfers": 0
+},
+ {
+   "Date": "25/11/2026",
+   "Title": {
+      "team name": "FC Frugal"
+   },
+   "Info": "No players included, only £27m in transfer budget - but a much bigger wage budget",
+   "Player IDs": "",
+   "Manager": "",
+   "Wage budget": "£1,000,000",
+   "Transfer budget": "£27,000,000",
+   "Transfers": 18
+},
+ {
+   "Date": "26/11/2026",
+   "Title": {
+      "team name": "Midtable FC 3"
+   },
+   "Info": "Starting squad consists of a mixed-ability group who should scrape midtable",
+   "Player IDs": "P2920 P851 P2198 P1258 P1589 P3430 P3437 P1785 P576 P1110 P1285 P147 P855 P2312 P117 P1085 P2489 P1009",
+   "Manager": "",
+   "Wage budget": "£0",
+   "Transfer budget": "£0",
+   "Transfers": 0
+},
+ {
+   "Date": "27/11/2026",
+   "Title": {
+      "team name": "London FC"
+   },
+   "Info": "Starting squad contains players only from London clubs",
+   "Player IDs": "P823 P733 P608 P152 P1729 P1187 P369 P1772 P184 P676 P2593 P1650 P1925 P475 P1042 P1554 P2078 P3222",
+   "Manager": "M55",
+   "Wage budget": "£100,000",
+   "Transfer budget": "£50,000,000",
+   "Transfers": 0
+},
+ {
+   "Date": "28/11/2026",
+   "Title": {
+      "team name": "10-year ban"
+   },
+   "Info": "Starting squad is elite... but you have a 10-year transfer ban and have to manage how you evolve your team",
+   "Player IDs": "P349 P3719 P1469 P2935 P2743 P3050 P3618 P2555 P924 P2903 P1465 P783 P3480 P1151 P138 P567 P949 P305",
+   "Manager": "M85",
+   "Wage budget": "£0",
+   "Transfer budget": "transferban:10",
+   "Transfers": 0
+},
+ {
+   "Date": "29/11/2026",
+   "Title": {
+      "team name": "Viva Xabi's Invincibles"
+   },
+   "Info": "Bayer Leverkusen's 2023/24 team have been dropped into your starting squad",
+   "Player IDs": "C883 C884 C885 C886 C887 C888 C889 C890 C891 C892 C893 C894 C895 C896 C897 C898 C899 C900",
+   "Manager": "CM8",
+   "Wage budget": "£0",
+   "Transfer budget": "£0",
+   "Transfers": 0
+},
+ {
+   "Date": "30/11/2026",
+   "Title": {
+      "team name": "AFC Alliteration"
+   },
+   "Info": "Starting squad contains players with alliterative first and surnames",
+   "Player IDs": "P1904 P284 P2088 P2745 P1748 P1648 P2950 P977 P822 P10 P3348 P2232 P223 P3393 P1277 P1145 P3712 P1452",
+   "Manager": "M21",
+   "Wage budget": "£100,000",
+   "Transfer budget": "£0",
+   "Transfers": 0
+},
+ {
+   "Date": "01/12/2026",
+   "Title": {
+      "team name": "Sell to buy: GK edition"
+   },
+   "Info": "Starting squad consists purely of goalkeepers - and no budget",
+   "Player IDs": "P97 P783 P1970 P1401 P1525 P3225 P3499 P3252 P3778 P946 P2996 P3563 P3622 P430 P2348 P2417 P3025 P3477",
+   "Manager": "M51",
+   "Wage budget": "£0",
+   "Transfer budget": "£0",
+   "Transfers": 0
+},
+ {
+   "Date": "02/12/2026",
+   "Title": {
+      "team name": "England youth champs"
+   },
+   "Info": "Starting squad contains players who won the Under-20 World Cup with England in 2017 and the Under-21 tournament in 2023",
+   "Player IDs": "P1525 P1860 P1261 P3437 P3642 P2091 P755 P3242 P581 P3468 P1362 P1385 P3236 P3222 P2034 P1501 P740 P1098",
+   "Manager": "M58",
+   "Wage budget": "£100,000",
+   "Transfer budget": "£50,000,000",
+   "Transfers": 0
+},
+ {
+   "Date": "03/12/2026",
+   "Title": {
+      "team name": "Midtable FC 4"
+   },
+   "Info": "Starting squad consists of a mixed-ability group who should scrape midtable",
+   "Player IDs": "P2008 P548 P2009 P3485 P3365 P3549 P866 P2254 P2625 P1862 P2054 P862 P1041 P2977 P903 P2396 P3487 P1841",
+   "Manager": "",
+   "Wage budget": "£0",
+   "Transfer budget": "£0",
+   "Transfers": 0
+},
+ {
+   "Date": "04/12/2026",
+   "Title": {
+      "team name": "One from the top..."
+   },
+   "Info": "Squad consists of a legend and a handful of random picks",
+   "Player IDs": "P2793 P3077 P3365 P581 L33 P60",
+   "Manager": "",
+   "Wage budget": "£600,000",
+   "Transfer budget": "£200,000,000",
+   "Transfers": 13
+},
+ {
+   "Date": "05/12/2026",
+   "Title": {
+      "team name": "Give Us An A"
+   },
+   "Info": "Starting squad contains players whose surnames start with A",
+   "Player IDs": "P1147 P10 P14 P15 P17 P18 P20 P22 P54 P109 P174 P200 P214 P216 P217 P220 P223 P226",
+   "Manager": "M55",
+   "Wage budget": "£0",
+   "Transfer budget": "£0",
+   "Transfers": 0
+},
+ {
+   "Date": "06/12/2026",
+   "Title": {
+      "team name": "Dean Court vs. the World"
+   },
+   "Info": "Start the season with minus 17 points and a squad of players who have played for Bournemouth",
+   "Player IDs": "P3234 P164 P3749 P3163 P70 P1785 P22 P755 P3149 P696 P1818 P510 P3372 P3161 P3242 P3688 P2884 P2780",
+   "Manager": "M24",
+   "Wage budget": "£100,000",
+   "Transfer budget": "pointsdeduction:17",
+   "Transfers": 0
+},
+ {
+   "Date": "07/12/2026",
+   "Title": {
+      "team name": "World Champions core"
+   },
+   "Info": "Starting squad only contains five World Cup winners",
+   "Player IDs": "L75 L11 P3719 P2685 P2903",
+   "Manager": "",
+   "Wage budget": "£480,000",
+   "Transfer budget": "£120,000,000",
+   "Transfers": 0
+},
+ {
+   "Date": "08/12/2026",
+   "Title": {
+      "team name": "Midtable FC 5"
+   },
+   "Info": "Starting squad consists of a mixed-ability group who should scrape midtable",
+   "Player IDs": "P2106 P3345 P3646 P899 P1616 P3749 P2733 P945 P375 P2709 P589 P1248 P3715 P3780 P1820 P1926 P1447 P1762",
+   "Manager": "",
+   "Wage budget": "£0",
+   "Transfer budget": "£0",
+   "Transfers": 0
+},
+ {
+   "Date": "09/12/2026",
+   "Title": {
+      "team name": "Midfield sorted"
+   },
+   "Info": "Starting squad only has a 85+ midfield trio - and room for four transfers - with the academy left to fill the gaps",
+   "Player IDs": "L34 P2743 P519",
+   "Manager": "",
+   "Wage budget": "£220,000",
+   "Transfer budget": "£150,000,000",
+   "Transfers": 4
+},
+ {
+   "Date": "10/12/2026",
+   "Title": {
+      "team name": "One from the top..."
+   },
+   "Info": "Squad consists of a legend and a handful of random picks",
+   "Player IDs": "L2 P2266 P2410 P2489 P2856",
+   "Manager": "",
+   "Wage budget": "£600,000",
+   "Transfer budget": "£200,000,000",
+   "Transfers": 13
+},
+ {
+   "Date": "11/12/2026",
+   "Title": {
+      "team name": "La Liga Elite"
+   },
+   "Info": "Starting squad consists of La Liga players",
+   "Player IDs": "P349 P2893 P3480 P1875 P2657 P2718 P2910 P1536 P1241 P2725 P2762 P2839 P2967 P2061 P1708 P2294 P2120 P367",
+   "Manager": "M22",
+   "Wage budget": "£100,000",
+   "Transfer budget": "£50,000,000",
+   "Transfers": 0
+},
+ {
+   "Date": "12/12/2026",
+   "Title": {
+      "team name": "79 City"
+   },
+   "Info": "Starting squad consists of 79-rated players",
+   "Player IDs": "P1708 P3027 P20 P22 P110 P154 P146 P2022 P263 P618 P696 P533 P255 P292 P1396 P1412 P919 P1040",
+   "Manager": "M75",
+   "Wage budget": "£100,000",
+   "Transfer budget": "£50,000,000",
+   "Transfers": 2
+},
+ {
+   "Date": "13/12/2026",
+   "Title": {
+      "team name": "Viva Monaco"
+   },
+   "Info": "Monaco's 2016/17 team have been dropped into your starting squad",
+   "Player IDs": "C37 C38 C39 C40 C41 C42 C43 C44 C45 C46 C47 C48 C49 C50 C51 C52 C53 C54",
+   "Manager": "C36",
+   "Wage budget": "£0",
+   "Transfer budget": "£0",
+   "Transfers": 0
+},
+ {
+   "Date": "14/12/2026",
+   "Title": {
+      "team name": "Euro 2020 XI"
+   },
+   "Info": "Starting squad all played in the Euro 2020 final",
+   "Player IDs": "L20 P2935 P3043 P988 P3178 P2384 P3640 P1412 P3071 P2085 P289 P2020 P792 P684 P1107 P2894 P1526 P3298 P365",
+   "Manager": "M34",
+   "Wage budget": "£100,000",
+   "Transfer budget": "£50,000,000",
+   "Transfers": 0
+},
+ {
+   "Date": "15/12/2026",
+   "Title": {
+      "team name": "Viva 49ers"
+   },
+   "Info": "Arsenal's 2003/04 Invincibles have been dropped into your starting squad",
+   "Player IDs": "C127 C128 C129 C130 C131 C132 C133 C134 C135 C136 C137 C138 C139 C140 C141 C142 C143 C144",
+   "Manager": "CM3",
+   "Wage budget": "£0",
+   "Transfer budget": "£0",
+   "Transfers": 0
+},
+ {
+   "Date": "16/12/2026",
+   "Title": {
+      "team name": "Laporte's XVIII"
+   },
+   "Info": "Just one former teammate, but ample investment - and Aymeric Laporte taking his first managerial job",
+   "Player IDs": "P2411",
+   "Manager": "CM66",
+   "Wage budget": "£750,000",
+   "Transfer budget": "300,000,000",
+   "Transfers": 17
+},
+ {
+   "Date": "17/12/2026",
+   "Title": {
+      "team name": "Midtable FC 6"
+   },
+   "Info": "Starting squad consists of a mixed-ability group who should scrape midtable",
+   "Player IDs": "P770 P1642 P2410 P175 P364 P491 P1888 P258 P636 P1226 P1681 P699 P3236 P3495 P1445 P2321 P588 P3662",
+   "Manager": "",
+   "Wage budget": "£0",
+   "Transfer budget": "0",
+   "Transfers": 0
+},
+ {
+   "Date": "18/12/2026",
+   "Title": {
+      "team name": "FA Cup 2020 XI"
+   },
+   "Info": "Starting squad all featured in the 2020 FA Cup final squads",
+   "Player IDs": "P2158 P184 P3419 P348 P3716 P653 P201 P2529 P2091 P1837 P3013 P1878 P1345 P2384 P694 P2860 P1743 P3444",
+   "Manager": "M33",
+   "Wage budget": "£100,000",
+   "Transfer budget": "£50,000,000",
+   "Transfers": 0
+},
+ {
+   "Date": "19/12/2026",
+   "Title": {
+      "team name": "FC Frugal II"
+   },
+   "Info": "No players included, only £33m in transfer budget - but a much bigger wage budget",
+   "Player IDs": "",
+   "Manager": "",
+   "Wage budget": "£1,000,000",
+   "Transfer budget": "£33,000,000",
+   "Transfers": 18
+},
+ {
+   "Date": "20/12/2026",
+   "Title": {
+      "team name": "Força Portugal"
+   },
+   "Info": "Portuguese players from various points in history have been dropped into your starting squad",
+   "Player IDs": "C35 C272 C362 C363 C385 C616 C618 C625 C626 C763 C877 C938 C945 C959 C965 C971 C1082 C17",
+   "Manager": "CM42",
+   "Wage budget": "£0",
+   "Transfer budget": "£0",
+   "Transfers": 0
+},
+ {
+   "Date": "21/12/2026",
+   "Title": {
+      "team name": "CF Aries"
+   },
+   "Info": "Starting squad consists of players born between March 21 and April 19",
+   "Player IDs": "P1030 P1098 P1699 P2110 P2264 P236 P2493 P2559 P3105 P3262 P3305 P3414 P3549 P3642 P3681 P3687 P3765 P863",
+   "Manager": "M77",
+   "Wage budget": "£100,000",
+   "Transfer budget": "£40,000,000",
+   "Transfers": 0
+},
+ {
+   "Date": "22/12/2026",
+   "Title": {
+      "team name": "Viva AJA"
+   },
+   "Info": "Auxerre's 2001/02 players have been dropped into your starting squad",
+   "Player IDs": "C667 C668 C669 C670 C671 C672 C673 C674 C675 C676 C677 C678 C679 C680 C681 C682 C683 C684",
+   "Manager": "CM6",
+   "Wage budget": "",
+   "Transfer budget": "",
+   "Transfers": 13
+},
+ {
+   "Date": "23/12/2026",
+   "Title": {
+      "team name": "Bundesliga Ballers"
+   },
+   "Info": "Starting squad consists of Bundesliga players",
+   "Player IDs": "P932 P2430 P3526 P3131 P3305 P1447 P1748 P154 P3529 P664 P1634 P1817 P2531 P2564 P1043 P1467 P3026 P2494",
+   "Manager": "M81",
+   "Wage budget": "£100,000",
+   "Transfer budget": "£50,000,000",
+   "Transfers": 0
+},
+ {
+   "Date": "24/12/2026",
+   "Title": {
+      "team name": "Brazilian core"
+   },
+   "Info": "Starting squad only contains four world-class Brazilians",
+   "Player IDs": "L43 P2893 P1275 P519",
+   "Manager": "",
+   "Wage budget": "£400,000",
+   "Transfer budget": "£100,000,000",
+   "Transfers": 3
+},
+ {
+   "Date": "25/12/2026",
+   "Title": {
+      "team name": "Midtable FC 7"
+   },
+   "Info": "Starting squad consists of a mixed-ability group who should scrape midtable",
+   "Player IDs": "P3387 P320 P3285 P1684 P458 P534 P264 P1535 P2756 P413 P3418 P3726 P526 P3046 P602 P2466 P3170 P1697",
+   "Manager": "",
+   "Wage budget": "£0",
+   "Transfer budget": "£0",
+   "Transfers": 0
+},
+ {
+   "Date": "26/12/2026",
+   "Title": {
+      "team name": "The Hairdryer"
+   },
+   "Info": "No players in your starting squad - but 1990s Sir Alex Ferguson as your manager",
+   "Player IDs": "",
+   "Manager": "CM33",
+   "Wage budget": "£400,000",
+   "Transfer budget": "£200,000,000",
+   "Transfers": 18
+},
+ {
+   "Date": "27/12/2026",
+   "Title": {
+      "team name": "Atletico Lefty"
+   },
+   "Info": "Entire starting squad is primarily left-footed",
+   "Player IDs": "P2614 P3043 P783 P2696 P1041 P3024 P2720 P1888 P1705 P374 P2674 P845 P2472 P3314 P2978 P117 P360 P2817",
+   "Manager": "M7",
+   "Wage budget": "£100,000",
+   "Transfer budget": "£50,000,000",
+   "Transfers": 0
+},
+ {
+   "Date": "28/12/2026",
+   "Title": {
+      "team name": "Viva Rodgers' Reds"
+   },
+   "Info": "Liverpool's 2013/14 players have been dropped into your starting squad",
+   "Player IDs": "C289 C290 C291 C292 C293 C294 C295 C296 C297 C298 C299 C300 C301 C302 C303 C304 C305 C306",
+   "Manager": "CM30",
+   "Wage budget": "£0",
+   "Transfer budget": "£0",
+   "Transfers": 0
+},
+ {
+   "Date": "29/12/2026",
+   "Title": {
+      "team name": "Pep's band back together"
+   },
+   "Info": "Starting squad consists of former Pep Guardiola players",
+   "Player IDs": "P1798 P2273 P83 P2493 P1053 L49 L40 P3074 P3298 P1566 P848 P1296 P70 P3447 P3208 P1986 P3640 P2513",
+   "Manager": "M85",
+   "Wage budget": "£100,000",
+   "Transfer budget": "£50,000,000",
+   "Transfers": 0
+},
+ {
+   "Date": "30/12/2026",
+   "Title": {
+      "team name": "Peak Messi"
+   },
+   "Info": "Squad only contains Lionel Messi, circa 2010/11",
+   "Player IDs": "C1081",
+   "Manager": "",
+   "Wage budget": "£400,000",
+   "Transfer budget": "£200,000,000",
+   "Transfers": 17
+},
+ {
+   "Date": "31/12/2026",
+   "Title": {
+      "team name": "FC Frugal III"
+   },
+   "Info": "No players included, only £36m in transfer budget - but a much bigger wage budget",
+   "Player IDs": "",
+   "Manager": "",
+   "Wage budget": "£1,000,000",
+   "Transfer budget": "£36,000,000",
+   "Transfers": 18
+},
+ {
+   "Date": "01/01/2027",
+   "Title": {
+      "team name": "Viva Zebre"
+   },
+   "Info": "Juventus' 2002/03 players have been dropped into your starting squad",
+   "Player IDs": "C452 C453 C454 C455 C456 C457 C458 C459 C460 C461 C462 C463 C464 C465 C466 C467 C468 C469",
+   "Manager": "CM25",
+   "Wage budget": "",
+   "Transfer budget": "",
+   "Transfers": 0
+},
+ {
+   "Date": "02/01/2027",
+   "Title": {
+      "team name": "One from the top..."
+   },
+   "Info": "Squad consists of a legend and a handful of random picks",
+   "Player IDs": "L6 P3523 P1447 P454 P498",
+   "Manager": "",
+   "Wage budget": "£600,000",
+   "Transfer budget": "£200,000,000",
+   "Transfers": 0
+},
+ {
+   "Date": "03/01/2027",
+   "Title": {
+      "team name": "Viva Los Galactico"
+   },
+   "Info": "Real Madrid's 2008/09 players have been dropped into your starting squad",
+   "Player IDs": "C379 C380 C381 C382 C383 C384 C385 C386 C387 C388 C389 C390 C391 C392 C393 C394 C395 C396",
+   "Manager": "CM46",
+   "Wage budget": "£0",
+   "Transfer budget": "£0",
+   "Transfers": 0
+},
+ {
+   "Date": "04/01/2027",
+   "Title": {
+      "team name": "Four wins away"
+   },
+   "Info": "Start the season with minus 12 points, no money and no starting squad",
+   "Player IDs": "",
+   "Manager": "",
+   "Wage budget": "£100,000",
+   "Transfer budget": "pointsdeduction:12",
+   "Transfers": 0
+},
+ {
+   "Date": "05/01/2027",
+   "Title": {
+      "team name": "Samba superstars"
+   },
+   "Info": "Starting squad consists of Brazilians",
+   "Player IDs": "P2893 P1275 P3093 P1360 P1708 P784 P142 P1530 P2409 P1053 P3105 P2294 P3665 P638 P2054 P807 P1152 P1111",
+   "Manager": "M32",
+   "Wage budget": "£100,000",
+   "Transfer budget": "£50,000,000",
+   "Transfers": 0
+},
+ {
+   "Date": "06/01/2027",
+   "Title": {
+      "team name": "Give Us A B"
+   },
+   "Info": "Starting squad contains players whose surnames start with B",
+   "Player IDs": "P349 P350 P352 P353 P354 P363 P364 P367 P368 P369 P371 P399 P419 P459 P462 P479 P482 P485",
+   "Manager": "M91",
+   "Wage budget": "£0",
+   "Transfer budget": "£0",
+   "Transfers": 0
+},
+ {
+   "Date": "07/01/2027",
+   "Title": {
+      "team name": "Midtable FC 8"
+   },
+   "Info": "Starting squad consists of a mixed-ability group who should scrape midtable",
+   "Player IDs": "P2156 P2830 P2339 P725 P733 P857 P907 P3017 P3112 P134 P1187 P291 P2266 P1221 P371 P2239 P3254 P1601",
+   "Manager": "",
+   "Wage budget": "£0",
+   "Transfer budget": "£0",
+   "Transfers": 0
+},
+ {
+   "Date": "08/01/2027",
+   "Title": {
+      "team name": "Viva Sarriball"
+   },
+   "Info": "Napoli's 2017/18 players have been dropped into your starting squad",
+   "Player IDs": "C865 C866 C867 C868 C869 C870 C871 C872 C873 C874 C875 C876 C877 C878 C879 C880 C881 C882",
+   "Manager": "CM37",
+   "Wage budget": "£0",
+   "Transfer budget": "£0",
+   "Transfers": 0
+},
+ {
+   "Date": "09/01/2027",
+   "Title": {
+      "team name": "Michaels, etc."
+   },
+   "Info": "Starting squad consists of players called Michael, Mike, Mikel or any equivalent",
+   "Player IDs": "P1763 P3778 P2614 P1761 P802 P3224 P39 P36 P898 P397 P2266 P1666 P2351 P823 P1913 P2282 P3134 P3549",
+   "Manager": "M75",
+   "Wage budget": "£100,000",
+   "Transfer budget": "£50,000,000",
+   "Transfers": 0
+},
+ {
+   "Date": "10/01/2027",
+   "Title": {
+      "team name": "Frontline sorted"
+   },
+   "Info": "Starting squad only has a 85+ front three - and room for four transfers - with the academy left to fill the gaps",
+   "Player IDs": "L23 P3719 P1627",
+   "Manager": "",
+   "Wage budget": "£220,000",
+   "Transfer budget": "£150,000,000",
+   "Transfers": 4
+},
+ {
+   "Date": "11/01/2027",
+   "Title": {
+      "team name": "Five-year ban"
+   },
+   "Info": "Starting squad is world-class... but you have a five-year transfer ban and have to manage how you evolve your team",
+   "Player IDs": "P3206 P1186 P932 P2745 P1435 P800 P2515 P1875 P2656 P2685 P1929 P2143 P305 P3131 P1860 P1825 P582 P2590",
+   "Manager": "M26",
+   "Wage budget": "£0",
+   "Transfer budget": "transferban:5",
+   "Transfers": 0
+},
+ {
+   "Date": "12/01/2027",
+   "Title": {
+      "team name": "Ligue 1 legacy"
+   },
+   "Info": "Starting squad consists of Ligue 1 players",
+   "Player IDs": "P1904 P2555 P2496 P2696 P2924 P131 P1396 P3562 P268 P691 P518 P1289 P1362 P1693 P2938 P2995 P3398 P3433",
+   "Manager": "M62",
+   "Wage budget": "£100,000",
+   "Transfer budget": "£50,000,000",
+   "Transfers": 0
+},
+ {
+   "Date": "13/01/2027",
+   "Title": {
+      "team name": "Viva Red Devils"
+   },
+   "Info": "Belgium's 2018 World Cup players have been dropped into your starting squad",
+   "Player IDs": "C524 C525 C526 C527 C528 C529 C530 C531 C532 C533 C534 C535 C536 C537 C538 C539 C540 C73",
+   "Manager": "CM9",
+   "Wage budget": "£0",
+   "Transfer budget": "£0",
+   "Transfers": 0
+},
+ {
+   "Date": "14/01/2027",
+   "Title": {
+      "team name": "Short Kings"
+   },
+   "Info": "Starting squad consists of outfielders all under 5ft 10in and goalkeepers who are both 6ft",
+   "Player IDs": "P2743 P2273 P1741 P582 P289 P1986 P1109 P3491 P2159 P1752 P1438 P2652 P3153 P2575 P169 P2035 P1784 P1613",
+   "Manager": "M125",
+   "Wage budget": "£100,000",
+   "Transfer budget": "£50,000,000",
+   "Transfers": 0
+},
+ {
+   "Date": "15/01/2027",
+   "Title": {
+      "team name": "Viva Nuno"
+   },
+   "Info": "Wolves' 2018/19 players have been dropped into your starting squad",
+   "Player IDs": "C757 C758 C759 C760 C761 C762 C763 C764 C765 C766 C767 C768 C769 C770 C771 C772 C773 C774",
+   "Manager": "CM60",
+   "Wage budget": "£0",
+   "Transfer budget": "£0",
+   "Transfers": 0
+},
+ {
+   "Date": "16/01/2027",
+   "Title": {
+      "team name": "Midtable FC 9"
+   },
+   "Info": "Starting squad consists of a mixed-ability group who should scrape midtable",
+   "Player IDs": "P2793 P2712 P1460 P241 P1792 P1033 P114 P60 P2020 P295 P1295 P177 P2559 P75 P689 P1378 P2881 P2531",
+   "Manager": "",
+   "Wage budget": "£0",
+   "Transfer budget": "£0",
+   "Transfers": 0
+},
+ {
+   "Date": "17/01/2027",
+   "Title": {
+      "team name": "French core"
+   },
+   "Info": "Starting squad only contains four world-class Frenchmen",
+   "Player IDs": "P880 P3050 P2088 L37",
+   "Manager": "",
+   "Wage budget": "£400,000",
+   "Transfer budget": "£100,000,000",
+   "Transfers": 3
+},
+ {
+   "Date": "18/01/2027",
+   "Title": {
+      "team name": "Two Keepers + an Academy"
+   },
+   "Info": "You only have Oliver Kahn, Edwin van der Sar and the money to build a Category A academy",
+   "Player IDs": "L42 L90",
+   "Manager": "",
+   "Wage budget": "£100,000",
+   "Transfer budget": "£100,000,000",
+   "Transfers": 0
+},
+ {
+   "Date": "19/01/2027",
+   "Title": {
+      "team name": "Viva Oranje"
+   },
+   "Info": "The Netherlands' 2014 World Cup players have been dropped into your starting squad",
+   "Player IDs": "C631 C632 C633 C634 C635 C636 C637 C638 C639 C640 C641 C642 C643 C644 C645 C646 C647 C648",
+   "Manager": "CM38",
+   "Wage budget": "£0",
+   "Transfer budget": "£0",
+   "Transfers": 0
+},
+ {
+   "Date": "20/01/2027",
+   "Title": {
+      "team name": "Starts and Ends II"
+   },
+   "Info": "Starting squad consists of players whose first name and surname start with the same letter",
+   "Player IDs": "P3158 P44 P58 P3000 P122 P2457 P3316 P1077 P360 P53 P2995 P3715 P427 P74 P131 P1057 P43 P1601",
+   "Manager": "M62",
+   "Wage budget": "",
+   "Transfer budget": "",
+   "Transfers": 0
+},
+ {
+   "Date": "21/01/2027",
+   "Title": {
+      "team name": "Jorginho's XVIII"
+   },
+   "Info": "Just one former teammate, but ample investment - and Jorginho taking his first managerial job",
+   "Player IDs": "P289",
+   "Manager": "CM61",
+   "Wage budget": "£750,000",
+   "Transfer budget": "300,000,000",
+   "Transfers": 17
+},
+ {
+   "Date": "22/01/2027",
+   "Title": {
+      "team name": "One from the top..."
+   },
+   "Info": "Squad consists of a legend and a handful of random picks",
+   "Player IDs": "L17 P827 P848 P850 P1135",
+   "Manager": "",
+   "Wage budget": "£600,000",
+   "Transfer budget": "£200,000,000",
+   "Transfers": 13
+},
+ {
+   "Date": "23/01/2027",
+   "Title": {
+      "team name": "74 City"
+   },
+   "Info": "Starting squad consists of 74-rated players",
+   "Player IDs": "P307 P757 P50 P175 P3451 P40 P10 P54 P112 P8 P147 P220 P82 P157 P33 P243 P13 P29",
+   "Manager": "M123",
+   "Wage budget": "£100,000",
+   "Transfer budget": "£50,000,000",
+   "Transfers": 2
+},
+ {
+   "Date": "24/01/2027",
+   "Title": {
+      "team name": "FA Cup 2021 XI"
+   },
+   "Info": "Starting squad all featured in the 2021 FA Cup final squads",
+   "Player IDs": "P184 P3648 P1585 P3013 P1650 P106 P2384 P1107 P1340 P1509 P3418 P2758 P2762 P3566 P2075 P1223 P1743 P2860",
+   "Manager": "M10",
+   "Wage budget": "£100,000",
+   "Transfer budget": "£50,000,000",
+   "Transfers": 0
+},
+ {
+   "Date": "25/01/2027",
+   "Title": {
+      "team name": "Midtable FC 10"
+   },
+   "Info": "Starting squad consists of a mixed-ability group who should scrape midtable",
+   "Player IDs": "P2920 P316 P2157 P407 P1807 P2289 P1351 P850 P3667 P360 P3065 P347 P2384 P32 P71 P1169 P3680 P17",
+   "Manager": "",
+   "Wage budget": "£0",
+   "Transfer budget": "£0",
+   "Transfers": 0
+},
+ {
+   "Date": "26/01/2027",
+   "Title": {
+      "team name": "Peak James"
+   },
+   "Info": "Squad only contains James Rodriguez, circa 2014/15",
+   "Player IDs": "C1093",
+   "Manager": "",
+   "Wage budget": "£400,000",
+   "Transfer budget": "£200,000,000",
+   "Transfers": 17
+},
+ {
+   "Date": "27/01/2027",
+   "Title": {
+      "team name": "Serie A Renaissance"
+   },
+   "Info": "Starting squad consists of Serie A players",
+   "Player IDs": "P305 P2514 P1853 P2240 P591 P1690 P3399 P2736 P1962 P1727 P919 P3010 P3225 P2292 P1008 P105 P2791 P3276",
+   "Manager": "M18",
+   "Wage budget": "£100,000",
+   "Transfer budget": "£50,000,000",
+   "Transfers": 0
+},
+ {
+   "Date": "28/01/2027",
+   "Title": {
+      "team name": "Viva Baggies"
+   },
+   "Info": "West Brom's 2016/17 players have been dropped into your starting squad",
+   "Player IDs": "C397 C398 C399 C400 C401 C402 C403 C404 C405 C406 C407 C408 C409 C410 C411 C412 C413 C414",
+   "Manager": "CM58",
+   "Wage budget": "£0",
+   "Transfer budget": "£0",
+   "Transfers": 0
+},
+ {
+   "Date": "29/01/2027",
+   "Title": {
+      "team name": "98s and 70s"
+   },
+   "Info": "Starting squad contains two 99-related players, and the rest are all rated low 70s",
+   "Player IDs": "L75 L98 P1450 P2121 P2792 P251 P2297 P3185 P407 P602 P3624 P2750 P2133 P3337 P778 P3241 P2519 P433",
+   "Manager": "M77",
+   "Wage budget": "£70,000",
+   "Transfer budget": "£9,800,000",
+   "Transfers": 1
+},
+ {
+   "Date": "30/01/2027",
+   "Title": {
+      "team name": "Revier Rules"
+   },
+   "Info": "Starting squad contains players who have played on either side of the Revierderby",
+   "Player IDs": "P1825 P2493 P3026 P1480 P3131 P154 P2069 P1438 P598 P2689 P2532 P490 P1394 P32 P3071 P1837 P2010 P201",
+   "Manager": "M53",
+   "Wage budget": "£0",
+   "Transfer budget": "£0",
+   "Transfers": 0
+},
+ {
+   "Date": "31/01/2027",
+   "Title": {
+      "team name": "Primeira Surpremacy"
+   },
+   "Info": "Starting squad consists of Premeira Liga players",
+   "Player IDs": "P770 P1616 P1807 P3317 P205 P867 P2775 P2763 P241 P43 P1050 P3127 P331 P2241 P2998 P2863 P3532 P3240",
+   "Manager": "M68",
+   "Wage budget": "£100,000",
+   "Transfer budget": "£50,000,000",
+   "Transfers": 0
+},
+ {
+   "Date": "01/02/2027",
+   "Title": {
+      "team name": "Viva Sven"
+   },
+   "Info": "Lazio's 1999/2000 players have been dropped into your starting squad",
+   "Player IDs": "C847 C848 C849 C850 C851 C852 C853 C854 C855 C856 C857 C858 C859 C860 C861 C862 C863 C864",
+   "Manager": "CM26",
+   "Wage budget": "£0",
+   "Transfer budget": "£0",
+   "Transfers": 0
+},
+ {
+   "Date": "02/02/2027",
+   "Title": {
+      "team name": "Midtable FC 11"
+   },
+   "Info": "Starting squad consists of a mixed-ability group who should scrape midtable",
+   "Player IDs": "P1053 P200 P482 P3642 P2862 P1223 P3451 P2720 P142 P3699 P2885 P2532 P2701 P2775 P249 P2950 P1468 P2630",
+   "Manager": "",
+   "Wage budget": "£0",
+   "Transfer budget": "£0",
+   "Transfers": 0
+},
+ {
+   "Date": "03/02/2027",
+   "Title": {
+      "team name": "Argentine core"
+   },
+   "Info": "Starting squad only contains four world-class Argentine players",
+   "Player IDs": "P109 P2155 P2514 L72",
+   "Manager": "",
+   "Wage budget": "£400,000",
+   "Transfer budget": "£100,000,000",
+   "Transfers": 3
+},
+ {
+   "Date": "04/02/2027",
+   "Title": {
+      "team name": "FC Frugal IV"
+   },
+   "Info": "No players included, only £25m in transfer budget - but a much bigger wage budget",
+   "Player IDs": "",
+   "Manager": "",
+   "Wage budget": "£1,000,000",
+   "Transfer budget": "£25,000,000",
+   "Transfers": 18
+},
+ {
+   "Date": "05/02/2027",
+   "Title": {
+      "team name": "Azpilicueta's XVIII"
+   },
+   "Info": "Just one former teammate, but ample investment - and Cesar Azpilicueta taking his first managerial job",
+   "Player IDs": "P1650",
+   "Manager": "CM62",
+   "Wage budget": "£750,000",
+   "Transfer budget": "300,000,000",
+   "Transfers": 17
+},
+ {
+   "Date": "06/02/2027",
+   "Title": {
+      "team name": "Give Us A C"
+   },
+   "Info": "Starting squad contains players whose surnames start with C",
+   "Player IDs": "P607 P608 P610 P625 P634 P638 P669 P694 P696 P699 P708 P725 P800 P801 P802 P804 P806 C937",
+   "Manager": "M4",
+   "Wage budget": "£0",
+   "Transfer budget": "£0",
+   "Transfers": 0
+},
+ {
+   "Date": "07/02/2027",
+   "Title": {
+      "team name": "Viva Albion"
+   },
+   "Info": "Brighton's 2022/23 players have been dropped into your starting squad",
+   "Player IDs": "C775 C776 C777 C778 C779 C780 C781 C782 C783 C784 C785 C786 C787 C788 C789 C790 C791 C792",
+   "Manager": "CM15",
+   "Wage budget": "£0",
+   "Transfer budget": "£0",
+   "Transfers": 0
+},
+ {
+   "Date": "08/02/2027",
+   "Title": {
+      "team name": "Basque to the Future"
+   },
+   "Info": "Starting squad consists of Basque players",
+   "Player IDs": "P3206 P2515 P2685 P2149 P1666 P3796 P2718 P1542 P1391 P368 P1459 P1066 P162 P2595 P2266 P3797 L1 P367",
+   "Manager": "M116",
+   "Wage budget": "£100,000",
+   "Transfer budget": "£50,000,000",
+   "Transfers": 0
+},
+ {
+   "Date": "09/02/2027",
+   "Title": {
+      "team name": "Viva Capitale"
+   },
+   "Info": "Roma's 2001/02 players have been dropped into your starting squad",
+   "Player IDs": "C829 C830 C831 C832 C833 C834 C835 C836 C837 C838 C839 C840 C841 C842 C843 C844 C845 C846",
+   "Manager": "CM47",
+   "Wage budget": "£0",
+   "Transfer budget": "£0",
+   "Transfers": 0
+},
+ {
+   "Date": "10/02/2027",
+   "Title": {
+      "team name": "Midtable FC 12"
+   },
+   "Info": "Starting squad consists of a mixed-ability group who should scrape midtable",
+   "Player IDs": "P1970 P2435 P3640 P642 P2856 P3550 P2110 P146 P3078 P3515 P205 P143 P3324 P1059 P3471 P292 P201 P2529",
+   "Manager": "",
+   "Wage budget": "£0",
+   "Transfer budget": "£0",
+   "Transfers": 0
+},
+ {
+   "Date": "11/02/2027",
+   "Title": {
+      "team name": "The Professeur"
+   },
+   "Info": "No players in your starting squad - but 2000s Arsene Wenger as your manager",
+   "Player IDs": "",
+   "Manager": "CM3",
+   "Wage budget": "£400,000",
+   "Transfer budget": "£200,000,000",
+   "Transfers": 18
+},
+ {
+   "Date": "12/02/2027",
+   "Title": {
+      "team name": "One from the top..."
+   },
+   "Info": "Squad consists of a legend and a handful of random picks",
+   "Player IDs": "L82 P3206 P740 P857 P292",
+   "Manager": "",
+   "Wage budget": "£600,000",
+   "Transfer budget": "£200,000,000",
+   "Transfers": 13
+},
+ {
+   "Date": "13/02/2027",
+   "Title": {
+      "team name": "Madridista Madness"
+   },
+   "Info": "Starting squad contains players who have played on either side of the Madrid Derby",
+   "Player IDs": "P1297 P1534 P174 P1850 P189 P2061 P2254 P2294 P2328 P2339 P2977 P3104 P3254 P3381 P363 P487 P589 P633",
+   "Manager": "M5",
+   "Wage budget": "£0",
+   "Transfer budget": "£0",
+   "Transfers": 0
+},
+ {
+   "Date": "14/02/2027",
+   "Title": {
+      "team name": "Força Brasil"
+   },
+   "Info": "Brazilian players from various points in history have been dropped into your starting squad",
+   "Player IDs": "C38 C140 C171 C295 C299 C358 C365 C388 C420 C423 C475 C487 C816 C844 C865 C1097 C834 C1041",
+   "Manager": "CM44",
+   "Wage budget": "£0",
+   "Transfer budget": "£0",
+   "Transfers": 0
+},
+ {
+   "Date": "15/02/2027",
+   "Title": {
+      "team name": "Peak KDB"
+   },
+   "Info": "Squad only contains Kevin De Bruyne, circa 2019/20",
+   "Player IDs": "C1090",
+   "Manager": "",
+   "Wage budget": "£400,000",
+   "Transfer budget": "£200,000,000",
+   "Transfers": 17
+},
+ {
+   "Date": "16/02/2027",
+   "Title": {
+      "team name": "Flair FC"
+   },
+   "Info": "Squad only contains a selection of legendary showmen",
+   "Player IDs": "C1112 C1084 C1085 L56 C1111 L9",
+   "Manager": "",
+   "Wage budget": "£280,000",
+   "Transfer budget": "£115,000,000",
+   "Transfers": 12
+},
+ {
+   "Date": "17/02/2027",
+   "Title": {
+      "team name": "The General"
+   },
+   "Info": "No players in your starting squad - but 2000s Sam Allardyce as your manager",
+   "Player IDs": "",
+   "Manager": "CM11",
+   "Wage budget": "£400,000",
+   "Transfer budget": "£200,000,000",
+   "Transfers": 18
+},
+ {
+   "Date": "18/02/2027",
+   "Title": {
+      "team name": "Carlo's band back together"
+   },
+   "Info": "Starting squad consists of former Carlo Ancelotti's players",
+   "Player IDs": "L66 L43 P2328 P363 P1645 P2793 P83 P1798 P2292 P1151 P174 P633 P2977 P999 P943 P2013 P1101 P1111",
+   "Manager": "M11",
+   "Wage budget": "£100,000",
+   "Transfer budget": "£50,000,000",
+   "Transfers": 0
+},
+ {
+   "Date": "19/02/2027",
+   "Title": {
+      "team name": "Viva De Godenzonen"
+   },
+   "Info": "Ajax's 2018/19 players have been dropped into your starting squad",
+   "Player IDs": "C649 C650 C651 C652 C653 C654 C655 C656 C657 C658 C659 C660 C661 C662 C663 C664 C665 C666",
+   "Manager": "CM1",
+   "Wage budget": "£0",
+   "Transfer budget": "£0",
+   "Transfers": 0
+},
+ {
+   "Date": "20/02/2027",
+   "Title": {
+      "team name": "Give Us A D"
+   },
+   "Info": "Starting squad contains players whose surnames start with D",
+   "Player IDs": "P851 P898 P822 P889 P857 P950 P836 P850 P863 P862 P896 P855 P1041 P903 P117 P824 P834 P1035",
+   "Manager": "M21",
+   "Wage budget": "£0",
+   "Transfer budget": "£0",
+   "Transfers": 0
+},
+ {
+   "Date": "21/02/2027",
+   "Title": {
+      "team name": "Xhaka's XVIII"
+   },
+   "Info": "Just one former teammate, but ample investment - and Granit Xhaka taking his first managerial job",
+   "Player IDs": "P1421",
+   "Manager": "CM63",
+   "Wage budget": "£750,000",
+   "Transfer budget": "300,000,000",
+   "Transfers": 17
+},
+ {
+   "Date": "22/02/2027",
+   "Title": {
+      "team name": "Peak MSN"
+   },
+   "Info": "Squad only contains peak Lionel Messi, Luis Suarez and Neymar",
+   "Player IDs": "C293 C1081 C1084",
+   "Manager": "",
+   "Wage budget": "£400,000",
+   "Transfer budget": "£150,000,000",
+   "Transfers": 15
+},
+ {
+   "Date": "23/02/2027",
+   "Title": {
+      "team name": "Lower Midtable FC"
+   },
+   "Info": "Starting squad consists of a lower mixed-ability group who should sit around lower midtable",
+   "Player IDs": "P202 P362 P11 P267 P694 P18 P223 P285 P638 P1452 P25 P1359 P71 P2860 P1652 P260 P3624 P1009",
+   "Manager": "",
+   "Wage budget": "£0",
+   "Transfer budget": "£0",
+   "Transfers": 0
+},
+ {
+   "Date": "24/02/2027",
+   "Title": {
+      "team name": "Northeast Stars"
+   },
+   "Info": "Starting squad contains players who have played on either side of the Tyne-Wear Derby",
+   "Player IDs": "P2009 P2032 P2266 P2423 P2731 P2762 P292 P3121 P3158 P3366 P3438 P3485 P350 P360 P3684 P3688 P542 P718",
+   "Manager": "M24",
+   "Wage budget": "£0",
+   "Transfer budget": "£0",
+   "Transfers": 0
+},
+ {
+   "Date": "25/02/2027",
+   "Title": {
+      "team name": "Class of '97"
+   },
+   "Info": "Starting squad consists of players born in 1997",
+   "Player IDs": "P475 P853 P2155 P1952 P2240 P2732 P289 P526 P1295 P2321 P2550 P2916 P2961 P3055 P3278 P1642 P3137 P3244",
+   "Manager": "",
+   "Wage budget": "£200,000",
+   "Transfer budget": "£50,000,000",
+   "Transfers": 0
+},
+ {
+   "Date": "26/02/2027",
+   "Title": {
+      "team name": "Viva Treble"
+   },
+   "Info": "Manchester United's 1998/99 players have been dropped into your starting squad",
+   "Player IDs": "C109 C110 C111 C112 C113 C114 C115 C116 C117 C118 C119 C120 C121 C122 C123 C124 C125 C126",
+   "Manager": "CM33",
+   "Wage budget": "£0",
+   "Transfer budget": "£0",
+   "Transfers": 0
+},
+ {
+   "Date": "27/02/2027",
+   "Title": {
+      "team name": "Peak Rojas"
+   },
+   "Info": "Squad only contains peak Arturo Vidal and Alexis Sanchez",
+   "Player IDs": "C1101 C1102",
+   "Manager": "",
+   "Wage budget": "£400,000",
+   "Transfer budget": "£180,000,000",
+   "Transfers": 16
+},
+ {
+   "Date": "28/02/2027",
+   "Title": {
+      "team name": "Ghanaian Galaxy"
+   },
+   "Info": "Squad consists of 15 current Ghanaians, and three lifted from history",
+   "Player IDs": "C28 C498 C688 P3161 P3680 P1895 P216 P2549 P1168 P1925 P3327 P3054 P1032 P3153 P3408 P3162 P2561 P2608",
+   "Manager": "",
+   "Wage budget": "£0",
+   "Transfer budget": "£0",
+   "Transfers": 0
+},
+ {
+   "Date": "01/03/2027",
+   "Title": {
+      "team name": "Bruno's XVIII"
+   },
+   "Info": "Just one former teammate, but ample investment - and Bruno Fernandes taking his first managerial job",
+   "Player IDs": "P117",
+   "Manager": "CM81",
+   "Wage budget": "£750,000",
+   "Transfer budget": "300,000,000",
+   "Transfers": 17
+},
+ {
+   "Date": "02/03/2027",
+   "Title": {
+      "team name": "Swedish core"
+   },
+   "Info": "Starting squad only contains four world-class Swedish players",
+   "Player IDs": "L39 L51 P1627 P1899",
+   "Manager": "",
+   "Wage budget": "£400,000",
+   "Transfer budget": "£100,000,000",
+   "Transfers": 3
+},
+ {
+   "Date": "03/03/2027",
+   "Title": {
+      "team name": "Milner's XVIII"
+   },
+   "Info": "Just one former teammate, but ample investment - and James Milner taking his first managerial job",
+   "Player IDs": "P850",
+   "Manager": "CM64",
+   "Wage budget": "£750,000",
+   "Transfer budget": "300,000,000",
+   "Transfers": 17
+},
+ {
+   "Date": "04/03/2027",
+   "Title": {
+      "team name": "Peak Ozil"
+   },
+   "Info": "Squad only contains Mesut Ozil, circa 2015/16",
+   "Player IDs": "C1098",
+   "Manager": "",
+   "Wage budget": "£400,000",
+   "Transfer budget": "£200,000,000",
+   "Transfers": 17
+},
+ {
+   "Date": "05/03/2027",
+   "Title": {
+      "team name": "Viva Rovers"
+   },
+   "Info": "Blackburn's 2003/04 players have been dropped into your starting squad",
+   "Player IDs": "C73 C74 C75 C76 C77 C78 C79 C80 C81 C82 C83 C84 C85 C86 C87 C88 C89 C90",
+   "Manager": "CM10",
+   "Wage budget": "£0",
+   "Transfer budget": "£0",
+   "Transfers": 0
+},
+ {
+   "Date": "06/03/2027",
+   "Title": {
+      "team name": "Give Us An E"
+   },
+   "Info": "Starting squad contains players whose surnames start with E",
+   "Player IDs": "P1053 P1054 P1056 P1085 P1100 P1111 P1115 P1132 P1134 P1135 P1137 P1145 P1148 P1119 P1123 P1127 P1129 P1130",
+   "Manager": "M115",
+   "Wage budget": "£0",
+   "Transfer budget": "£0",
+   "Transfers": 0
+},
+ {
+   "Date": "07/03/2027",
+   "Title": {
+      "team name": "West London Calling"
+   },
+   "Info": "Starting squad contains players who have played on either side of the Brentford-Fulham divide",
+   "Player IDs": "",
+   "Manager": "",
+   "Wage budget": "£0",
+   "Transfer budget": "£0",
+   "Transfers": 0
+},
+ {
+   "Date": "08/03/2027",
+   "Title": {
+      "team name": "FC Frugal V"
+   },
+   "Info": "No players included, only £28m in transfer budget - but a much bigger wage budget",
+   "Player IDs": "",
+   "Manager": "",
+   "Wage budget": "£1,000,000",
+   "Transfer budget": "£28,000,000",
+   "Transfers": 18
+},
+ {
+   "Date": "09/03/2027",
+   "Title": {
+      "team name": "World Champions core II"
+   },
+   "Info": "Starting squad only contains five World Cup winners",
+   "Player IDs": "L64 L6 P880 P2617 P1535",
+   "Manager": "",
+   "Wage budget": "£480,000",
+   "Transfer budget": "£120,000,000",
+   "Transfers": 0
+},
+ {
+   "Date": "10/03/2027",
+   "Title": {
+      "team name": "The Special One"
+   },
+   "Info": "No players in your starting squad - but 2000s Jose Mourinho as your manager",
+   "Player IDs": "",
+   "Manager": "CM42",
+   "Wage budget": "£400,000",
+   "Transfer budget": "£200,000,000",
+   "Transfers": 18
+},
+ {
+   "Date": "11/03/2027",
+   "Title": {
+      "team name": "Martins, etc."
+   },
+   "Info": "Starting squad consists of players called Martin, Martinez or any equivalent",
+   "Player IDs": "P2156 P2158 P2157 P1188 P2148 P2149 P2154 P2151 P3797 P2153 P2150 P2590 P2737 P2136 P2152 P2163 P3391 P2161",
+   "Manager": "M98",
+   "Wage budget": "£100,000",
+   "Transfer budget": "£50,000,000",
+   "Transfers": 0
+},
+ {
+   "Date": "12/03/2027",
+   "Title": {
+      "team name": "FC False Nine"
+   },
+   "Info": "Starting squad consists solely of three false nines to build a squad with",
+   "Player IDs": "P932 P1001 P806",
+   "Manager": "",
+   "Wage budget": "£200,000",
+   "Transfer budget": "£250,000,000",
+   "Transfers": 15
+},
+ {
+   "Date": "13/03/2027",
+   "Title": {
+      "team name": "Allez La France"
+   },
+   "Info": "French players from various points in history have been dropped into your starting squad",
+   "Player IDs": "C30 C50 C131 C147 C204 C237 C255 C275 C333 C351 C372 C455 C492 C667 C670 C700 C832 C982",
+   "Manager": "CM6",
+   "Wage budget": "£0",
+   "Transfer budget": "£0",
+   "Transfers": 0
+},
+ {
+   "Date": "14/03/2027",
+   "Title": {
+      "team name": "Peak Robbery"
+   },
+   "Info": "Squad only contains peak Arjen Robben and Franck Ribery",
+   "Player IDs": "C1105 C1106",
+   "Manager": "",
+   "Wage budget": "£400,000",
+   "Transfer budget": "£180,000,000",
+   "Transfers": 16
+},
+ {
+   "Date": "15/03/2027",
+   "Title": {
+      "team name": "Midtable FC 13"
+   },
+   "Info": "Starting squad consists of a mixed-ability group who should scrape midtable",
+   "Player IDs": "P174 P2610 P784 P2499 P3745 P454 P2805 P2314 P1191 P2943 P3581 P2726 P317 P1894 P3770 P3767 P3415 P1056",
+   "Manager": "",
+   "Wage budget": "£0",
+   "Transfer budget": "£0",
+   "Transfers": 0
+},
+ {
+   "Date": "16/03/2027",
+   "Title": {
+      "team name": "Viva Internazionale"
+   },
+   "Info": "Inter Milan's 1997/98 players have been dropped into your starting squad",
+   "Player IDs": "C488 C489 C490 C491 C492 C493 C494 C495 C496 C497 C498 C499 C500 C501 C502 C503 C504 C505",
+   "Manager": "CM24",
+   "Wage budget": "",
+   "Transfer budget": "",
+   "Transfers": 0
+},
+ {
+   "Date": "17/03/2027",
+   "Title": {
+      "team name": "Class of '96"
+   },
+   "Info": "Starting squad consists of players born in 1996",
+   "Player IDs": "P3523 P1447 P1535 P1681 P2266 P2410 P3254 P3352 P136 P1645 P571 P575 P3698 P154 P1412 P3125 P2348 P3694",
+   "Manager": "",
+   "Wage budget": "£200,000",
+   "Transfer budget": "£50,000,000",
+   "Transfers": 0
+},
+ {
+   "Date": "18/03/2027",
+   "Title": {
+      "team name": "Roman Rules"
+   },
+   "Info": "Starting squad contains players who have played on either side of the Derby della Capitale",
+   "Player IDs": "P1041 P1090 P1107 P1336 P1628 P1946 P2055 P2110 P2165 P2177 P2749 P2811 P3336 P3763 P637 P650 P792",
+   "Manager": "M17",
+   "Wage budget": "£0",
+   "Transfer budget": "£0",
+   "Transfers": 0
+},
+ {
+   "Date": "19/03/2027",
+   "Title": {
+      "team name": "CF Geminis"
+   },
+   "Info": "Starting squad consists of players born between May 21 and June 20",
+   "Player IDs": "P1215 P1221 P1340 P1367 P1425 P1468 P1727 P1894 P1954 P2156 P2254 P2736 P2885 P3046 P3582 P375 P60 P980",
+   "Manager": "M96",
+   "Wage budget": "£100,000",
+   "Transfer budget": "£40,000,000",
+   "Transfers": 0
+},
+ {
+   "Date": "20/03/2027",
+   "Title": {
+      "team name": "Starts and Ends III"
+   },
+   "Info": "Starting squad consists of players whose first name and surname start with the same letter",
+   "Player IDs": "P2951 P2609 P1067 P2688 P1047 P2655 P3053 P3087 P3516 P199 P3246 P2643 P1606 P3 P1614 P1645 P835 P3395",
+   "Manager": "M77",
+   "Wage budget": "",
+   "Transfer budget": "",
+   "Transfers": 0
+},
+ {
+   "Date": "21/03/2027",
+   "Title": {
+      "team name": "Frontline sorted II"
+   },
+   "Info": "Starting squad only has a 85+ front three - and room for four transfers - with the academy left to fill the gaps",
+   "Player IDs": "L60 P2893 P284",
+   "Manager": "",
+   "Wage budget": "£220,000",
+   "Transfer budget": "£150,000,000",
+   "Transfers": 4
+},
+ {
+   "Date": "22/03/2027",
+   "Title": {
+      "team name": "Viva Clarets"
+   },
+   "Info": "Burnley's 2017/18 players have been dropped into your starting squad",
+   "Player IDs": "C793 C794 C795 C796 C797 C798 C799 C800 C801 C802 C803 C804 C805 C806 C807 C808 C809 C810",
+   "Manager": "CM16",
+   "Wage budget": "£0",
+   "Transfer budget": "£0",
+   "Transfers": 0
+},
+ {
+   "Date": "23/03/2027",
+   "Title": {
+      "team name": "Talent Factory: VK"
+   },
+   "Info": "No transfers in your first season, no starting squad - but the money to build a Category A academy with Vincent Kompany in charge",
+   "Player IDs": "",
+   "Manager": "M119",
+   "Wage budget": "£30,000",
+   "Transfer budget": "£100,000,000",
+   "Transfers": 0
+},
+ {
+   "Date": "24/03/2027",
+   "Title": {
+      "team name": "Mentality Monsters FC"
+   },
+   "Info": "Squad consists solely of 10 players from history with supreme mentality",
+   "Player IDs": "C113 C1103 C1082 C109 C847 C1089 C478 C1081 C1012 C460",
+   "Manager": "",
+   "Wage budget": "£80,000",
+   "Transfer budget": "£80,000,000",
+   "Transfers": 8
+},
+ {
+   "Date": "25/03/2027",
+   "Title": {
+      "team name": "Peak Kante"
+   },
+   "Info": "Squad only contains N'Golo Kante, circa 2016/17",
+   "Player IDs": "C1091",
+   "Manager": "",
+   "Wage budget": "£400,000",
+   "Transfer budget": "£200,000,000",
+   "Transfers": 17
+},
+ {
+   "Date": "26/03/2027",
+   "Title": {
+      "team name": "Rainy City"
+   },
+   "Info": "Starting squad contains players who have played on either side of the Manchester Derby",
+   "Player IDs": "P1053 P1221 P1362 P1412 P1525 P1878 P1943 P1998 P2240 P3178 P3308 P3640 P3646 P3662 P427 P70 P848 P857",
+   "Manager": "M97",
+   "Wage budget": "£0",
+   "Transfer budget": "£0",
+   "Transfers": 0
+},
+ {
+   "Date": "27/03/2027",
+   "Title": {
+      "team name": "The Iron Tulip"
+   },
+   "Info": "No players in your starting squad - but 2010s Louis van Gaal as your manager",
+   "Player IDs": "",
+   "Manager": "CM38",
+   "Wage budget": "£400,000",
+   "Transfer budget": "£200,000,000",
+   "Transfers": 18
+},
+ {
+   "Date": "28/03/2027",
+   "Title": {
+      "team name": "Carlos, etc."
+   },
+   "Info": "Starting squad consists of players called Carlo, Carlos or any equivalent",
+   "Player IDs": "L16 P2807 P87 P203 P263 P997 P1129 P1710 P2849 P2858 P2988 P3244 P3597 P3022 P3289 P622 P1139 P1407",
+   "Manager": "M11",
+   "Wage budget": "£100,000",
+   "Transfer budget": "£50,000,000",
+   "Transfers": 0
+},
+ {
+   "Date": "29/03/2027",
+   "Title": {
+      "team name": "Give Us An F"
+   },
+   "Info": "Starting squad contains players whose surnames start with F",
+   "Player IDs": "P1153 P1155 P1163 P1175 P1178 P1181 P1182 P1183 P225 P1187 P1221 P1223 P1222 P1224 P1244 P1259 P1261 P1234",
+   "Manager": "M41",
+   "Wage budget": "£0",
+   "Transfer budget": "£0",
+   "Transfers": 0
+},
+ {
+   "Date": "30/03/2027",
+   "Title": {
+      "team name": "Defence sorted"
+   },
+   "Info": "Starting squad only has a 85+ back four - and room for four transfers - with the academy left to fill the gaps",
+   "Player IDs": "P572 P1480 L4 L31",
+   "Manager": "",
+   "Wage budget": "£220,000",
+   "Transfer budget": "£150,000,000",
+   "Transfers": 0
+},
+ {
+   "Date": "31/03/2027",
+   "Title": {
+      "team name": "English core III"
+   },
+   "Info": "Starting squad only contains four world-class English players",
+   "Player IDs": "L5 L7 P1740 P2090",
+   "Manager": "",
+   "Wage budget": "£400,000",
+   "Transfer budget": "£100,000,000",
+   "Transfers": 0
+},
+ {
+   "Date": "01/04/2027",
+   "Title": {
+      "team name": "Viva Gegenpress"
+   },
+   "Info": "Schalke's 2010/11 players have been dropped into your starting squad",
+   "Player IDs": "C1063 C1064 C1065 C1066 C1067 C1068 C1069 C1070 C1071 C1072 C1073 C1074 C1075 C1076 C1077 C1078 C1079 C1080",
+   "Manager": "CM48",
+   "Wage budget": "£0",
+   "Transfer budget": "£0",
+   "Transfers": 4
+},
+ {
+   "Date": "02/04/2027",
+   "Title": {
+      "team name": "North London Forever"
+   },
+   "Info": "Starting squad contains players who have played on either side of the North London Derby",
+   "Player IDs": "P1148 P1348 P1645 P1807 P1899 P1970 P1989 P2158 P2266 P2559 P2986 P3236 P3716 P2541 P2725 P396 P1345 P3694",
+   "Manager": "M7",
+   "Wage budget": "£0",
+   "Transfer budget": "£0",
+   "Transfers": 3
+},
+ {
+   "Date": "03/04/2027",
+   "Title": {
+      "team name": "Belgian core"
+   },
+   "Info": "Starting squad only contains four world-class Belgians",
+   "Player IDs": "P783 P2625 P3418 L104",
+   "Manager": "",
+   "Wage budget": "£400,000",
+   "Transfer budget": "£100,000,000",
+   "Transfers": 0
+},
+ {
+   "Date": "04/04/2027",
+   "Title": {
+      "team name": "Viva Malaga"
+   },
+   "Info": "Malaga's 2012/13 players have been dropped into your starting squad",
+   "Player IDs": "C1027 C1028 C1029 C1030 C1031 C1032 C1033 C1034 C1035 C1036 C1037 C1038 C1039 C1040 C1041 C1042 C1043 C1044",
+   "Manager": "CM31",
+   "Wage budget": "£0",
+   "Transfer budget": "£0",
+   "Transfers": 3
+},
+ {
+   "Date": "05/04/2027",
+   "Title": {
+      "team name": "FC Frugal VI"
+   },
+   "Info": "No players included, only £31m in transfer budget - but a much bigger wage budget",
+   "Player IDs": "",
+   "Manager": "",
+   "Wage budget": "£1,000,000",
+   "Transfer budget": "£31,000,000",
+   "Transfers": 18
+},
+ {
+   "Date": "06/04/2027",
+   "Title": {
+      "team name": "Class of '00"
+   },
+   "Info": "Starting squad consists of players born in 2000",
+   "Player IDs": "P1141 P1285 P1320 P1912 P2466 P3558 P131 P1722 P1727 P625 P845 P1533 P500 P611 P801 P1622 P2936 P157",
+   "Manager": "",
+   "Wage budget": "£200,000",
+   "Transfer budget": "£50,000,000",
+   "Transfers": 0
+},
+ {
+   "Date": "07/04/2027",
+   "Title": {
+      "team name": "French core II"
+   },
+   "Info": "Starting squad only contains four world-class Frenchmen",
+   "Player IDs": "P3050 P284 P3757 L15",
+   "Manager": "",
+   "Wage budget": "£400,000",
+   "Transfer budget": "£100,000,000",
+   "Transfers": 0
+},
+ {
+   "Date": "08/04/2027",
+   "Title": {
+      "team name": "Sell to buy: ST edition"
+   },
+   "Info": "Starting squad consists purely of centre-forwards - and no budget",
+   "Player IDs": "P1469 P1740 P507 P1035 P1468 P121 P298 P363 P2409 P272 P3196 P3709 P446 P647 P1595 P1608 P2055 P2370",
+   "Manager": "M51",
+   "Wage budget": "£0",
+   "Transfer budget": "£0",
+   "Transfers": 0
+},
+ {
+   "Date": "09/04/2027",
+   "Title": {
+      "team name": "Viva Atleti"
+   },
+   "Info": "Atletico Madrid's 2013/14 players have been dropped into your starting squad",
+   "Player IDs": "C415 C416 C417 C418 C419 C420 C421 C422 C423 C424 C425 C426 C427 C428 C429 C430 C431 C432 C433",
+   "Manager": "CM5",
+   "Wage budget": "£0",
+   "Transfer budget": "£0",
+   "Transfers": 0
+},
+ {
+   "Date": "10/04/2027",
+   "Title": {
+      "team name": "Alliteration Athletic"
+   },
+   "Info": "Starting squad contains players with alliterative first and surnames",
+   "Player IDs": "P1904 P1001 L102 P160 P199 P499 P632 P791 P851 P1100 P2745 P1991 P1161 P1342 P1595 P1692 P1981 P2140",
+   "Manager": "M113",
+   "Wage budget": "£100,000",
+   "Transfer budget": "£0",
+   "Transfers": 0
+},
+ {
+   "Date": "11/04/2027",
+   "Title": {
+      "team name": "Topper Madness"
+   },
+   "Info": "Starting squad contains players who have played on either side of the Ajax-PSV divide",
+   "Player IDs": "P1279 P1353 P1408 P1507 P1812 P249 P2757 P2921 P3238 P3142 P3331 P3351 P3397 P3422 P3581 P3584 P2626 P371 P422 P507 P857",
+   "Manager": "M86",
+   "Wage budget": "£0",
+   "Transfer budget": "£0",
+   "Transfers": 0
+},
+ {
+   "Date": "12/04/2027",
+   "Title": {
+      "team name": "Viva Vitality"
+   },
+   "Info": "Bournemouth's 2016/17 players have been dropped into your starting squad",
+   "Player IDs": "C919 C920 C921 C922 C923 C924 C925 C926 C927 C928 C929 C930 C931 C932 C933 C934 C935 C936",
+   "Manager": "CM13",
+   "Wage budget": "£0",
+   "Transfer budget": "£0",
+   "Transfers": 0
+},
+ {
+   "Date": "13/04/2027",
+   "Title": {
+      "team name": "The Normal One"
+   },
+   "Info": "No players in your starting squad - but 2010s Jurgen Klopp as your manager",
+   "Player IDs": "",
+   "Manager": "CM12",
+   "Wage budget": "£400,000",
+   "Transfer budget": "£200,000,000",
+   "Transfers": 18
+},
+ {
+   "Date": "14/04/2027",
+   "Title": {
+      "team name": "Midtable FC 14"
+   },
+   "Info": "Starting squad consists of a mixed-ability group who should scrape midtable",
+   "Player IDs": "P3587 P3606 P3562 P195 P1912 P3558 P414 P2958 P1252 P2740 P350 P1949 P1098 P255 P3378 P353 P3317 P3566",
+   "Manager": "",
+   "Wage budget": "£0",
+   "Transfer budget": "£0",
+   "Transfers": 0
+},
+ {
+   "Date": "15/04/2027",
+   "Title": {
+      "team name": "One from the top..."
+   },
+   "Info": "Squad consists of a legend and a handful of random picks",
+   "Player IDs": "L10 P3612 P1949 P1954 P1970",
+   "Manager": "",
+   "Wage budget": "£600,000",
+   "Transfer budget": "£200,000,000",
+   "Transfers": 13
+},
+ {
+   "Date": "16/04/2027",
+   "Title": {
+      "team name": "Peak Niall & Kev"
+   },
+   "Info": "Squad only contains peak Niall Quinn and Kevin Phillips",
+   "Player IDs": "C1107 C1108",
+   "Manager": "",
+   "Wage budget": "£400,000",
+   "Transfer budget": "£180,000,000",
+   "Transfers": 16
+},
+ {
+   "Date": "17/04/2027",
+   "Title": {
+      "team name": "The Felipão"
+   },
+   "Info": "No players in your starting squad - but 1990s Luiz Felipe Scolari as your manager",
+   "Player IDs": "",
+   "Manager": "CM44",
+   "Wage budget": "£400,000",
+   "Transfer budget": "£200,000,000",
+   "Transfers": 18
+},
+ {
+   "Date": "18/04/2027",
+   "Title": {
+      "team name": "Fuerza España"
+   },
+   "Info": "Spanish players from various points in history have been dropped into your starting squad",
+   "Player IDs": "C7 C99 C174 C346 C361 C366 C377 C381 C392 C418 C449 C450 C1013 C1064 C1036 C326 C883 C1047",
+   "Manager": "CM46",
+   "Wage budget": "£0",
+   "Transfer budget": "£0",
+   "Transfers": 0
+},
+ {
+   "Date": "19/04/2027",
+   "Title": {
+      "team name": "Silva's XVIII"
+   },
+   "Info": "Just one former teammate, but ample investment - and Thiago Silva taking his first managerial job",
+   "Player IDs": "P2384",
+   "Manager": "CM71",
+   "Wage budget": "£750,000",
+   "Transfer budget": "300,000,000",
+   "Transfers": 17
+},
+ {
+   "Date": "20/04/2027",
+   "Title": {
+      "team name": "Midtable Transfer Ban"
+   },
+   "Info": "Starting squad consists of a mixed-ability group who should sit around midtable - but you you're banned from making transfers for three seasons",
+   "Player IDs": "P2882 P2874 P1067 P3764 P15 P2640 P2746 P553 P2709 P2037 P2872 P1372 P2458 P2765 P214 P3753 P2939 P2748",
+   "Manager": "M115",
+   "Wage budget": "£150,000",
+   "Transfer budget": "transferban:3",
+   "Transfers": 0
+},
+ {
+   "Date": "21/04/2027",
+   "Title": {
+      "team name": "Lewises, etc."
+   },
+   "Info": "Starting squad consists of players called Lewis, Luiz or any equivalent",
+   "Player IDs": "P1708 P1986 P2300 P1033 P1178 P1482 P1987 P1220 P3479 P1183 P2054 P2295 P2948 P1445 P1988 P3317 P932 P3154 P1114",
+   "Manager": "M32",
+   "Wage budget": "£100,000",
+   "Transfer budget": "£50,000,000",
+   "Transfers": 0
+},
+ {
+   "Date": "22/04/2027",
+   "Title": {
+      "team name": "Sporting Same Surname"
+   },
+   "Info": "Starting squad consists solely of three false nines to build a squad with",
+   "Player IDs": "P2732 P3447 P1054 P1059 P1223 P1222 P46 P47 P265 P266 P1525 P1526 P1773 P1774 P1775 P1846 P1847 P1848",
+   "Manager": "",
+   "Wage budget": "£0",
+   "Transfer budget": "£0",
+   "Transfers": 0
+},
+ {
+   "Date": "23/04/2027",
+   "Title": {
+      "team name": "FA Cup 2023 XI"
+   },
+   "Info": "Starting squad all featured in the 2023 FA Cup final squads",
+   "Player IDs": "P548 P851 P3646 P3178 P638 P1307 P1093 P225 P2085 P1412 P1221 P66 P1452 P2711 P70 P1929 P2785 P2894",
+   "Manager": "M85",
+   "Wage budget": "£100,000",
+   "Transfer budget": "£50,000,000",
+   "Transfers": 0
+},
+ {
+   "Date": "24/04/2027",
+   "Title": {
+      "team name": "Viva Pompey"
+   },
+   "Info": "Portsmouth's 2007/08 players have been dropped into your starting squad",
+   "Player IDs": "C19 C20 C21 C22 C23 C24 C25 C26 C27 C28 C29 C30 C31 C32 C33 C34 C35 C36",
+   "Manager": "CM43",
+   "Wage budget": "£0",
+   "Transfer budget": "£0",
+   "Transfers": 0
+},
+ {
+   "Date": "25/04/2027",
+   "Title": {
+      "team name": "Portuguese core"
+   },
+   "Info": "Starting squad only contains four world-class Portuguese players",
+   "Player IDs": "L30 L32 P3618 P2555",
+   "Manager": "",
+   "Wage budget": "£400,000",
+   "Transfer budget": "£100,000,000",
+   "Transfers": 3
+},
+ {
+   "Date": "26/04/2027",
+   "Title": {
+      "team name": "Northern Stars"
+   },
+   "Info": "Starting squad contains players who have played on either side of the Derby d'Italia",
+   "Player IDs": "P1030 P1313 P1878 P2020 P2055 P2156 P2231 P2768 P289 P3016 P3415 P3733 P379 P498 P576 P591 P684 P945",
+   "Manager": "M107",
+   "Wage budget": "£0",
+   "Transfer budget": "£0",
+   "Transfers": 0
+},
+ {
+   "Date": "27/04/2027",
+   "Title": {
+      "team name": "World Champions core III"
+   },
+   "Info": "Starting squad only contains five World Cup winners",
+   "Player IDs": "L49 L16 P2743 P2745 P1743",
+   "Manager": "",
+   "Wage budget": "£480,000",
+   "Transfer budget": "£120,000,000",
+   "Transfers": 0
+},
+ {
+   "Date": "28/04/2027",
+   "Title": {
+      "team name": "Viva Tartan Army"
+   },
+   "Info": "Scotland's 1998 World Cup players have been dropped into your starting squad",
+   "Player IDs": "C577 C578 C579 C580 C581 C582 C583 C584 C585 C586 C587 C588 C589 C590 C591 C592 C593 C594",
+   "Manager": "CM49",
+   "Wage budget": "£0",
+   "Transfer budget": "£0",
+   "Transfers": 0
+},
+ {
+   "Date": "29/04/2027",
+   "Title": {
+      "team name": "French core III"
+   },
+   "Info": "Starting squad only contains four world-class Frenchmen",
+   "Player IDs": "L95 L102 P1875 P680",
+   "Manager": "",
+   "Wage budget": "£400,000",
+   "Transfer budget": "£100,000,000",
+   "Transfers": 0
+},
+ {
+   "Date": "30/04/2027",
+   "Title": {
+      "team name": "Gatwicko Madness"
+   },
+   "Info": "Starting squad contains players who have played on either side of the M23 Derby",
+   "Player IDs": "P1033 P1137 P1148 P1340 P136 P1425 P1525 P2175 P2312 P2318 P2321 P2410 P2577 P3558 P3584 P3587 P533 P998",
+   "Manager": "M83",
+   "Wage budget": "£0",
+   "Transfer budget": "£0",
+   "Transfers": 0
+},
+ {
+   "Date": "01/05/2027",
+   "Title": {
+      "team name": "Give Us A G"
+   },
+   "Info": "Starting squad contains players whose surnames start with G",
+   "Player IDs": "P519 P1465 P1385 P1435 P1285 P1320 P1348 P1425 P1460 P1361 P1367 P1378 P1388 P1296 P1396 P1412 P1358 P1432",
+   "Manager": "M37",
+   "Wage budget": "£0",
+   "Transfer budget": "£0",
+   "Transfers": 0
+},
+ {
+   "Date": "02/05/2027",
+   "Title": {
+      "team name": "Viva Toffees"
+   },
+   "Info": "Everton's 2004/05 players have been dropped into your starting squad",
+   "Player IDs": "C703 C704 C705 C706 C707 C708 C709 C710 C711 C712 C713 C714 C715 C716 C717 C718 C719 C720",
+   "Manager": "CM22",
+   "Wage budget": "£0",
+   "Transfer budget": "£0",
+   "Transfers": 0
+},
+ {
+   "Date": "03/05/2027",
+   "Title": {
+      "team name": "Madonnina Madness"
+   },
+   "Info": "Starting squad contains players who have played on either side of the Derby della Madonnina",
+   "Player IDs": "P1090 P1248 P1274 P1727 P1878 P1954 P2020 P2023 P2055 P2100 P2156 P2822 P289 P3402 P3415 P2088 P576 P945",
+   "Manager": "M11",
+   "Wage budget": "£0",
+   "Transfer budget": "£0",
+   "Transfers": 0
+},
+ {
+   "Date": "04/05/2027",
+   "Title": {
+      "team name": "Senegalese Assemble"
+   },
+   "Info": "Starting squad contains players only from Senegal",
+   "Player IDs": "P582 P1647 P2466 P919 P921 P3095 P2509 P3096 P958 P959 P3199 P911 P3076 P2256 P709 P1649 P3401 P3341",
+   "Manager": "M4",
+   "Wage budget": "£100,000",
+   "Transfer budget": "£50,000,000",
+   "Transfers": 0
+},
+ {
+   "Date": "05/05/2027",
+   "Title": {
+      "team name": "10-year ban II"
+   },
+   "Info": "Starting squad is elite... but you have a 10-year transfer ban and have to manage how you evolve your team",
+   "Player IDs": "P2893 P2964 P1904 P1740 P225 P2203 P799 P3615 P97 P1798 P3424 P3547 P1001 P3013 P2585 P2980 P2430 P3526",
+   "Manager": "M53",
+   "Wage budget": "£0",
+   "Transfer budget": "transferban:10",
+   "Transfers": 0
+},
+ {
+   "Date": "06/05/2027",
+   "Title": {
+      "team name": "Viva Pulisball"
+   },
+   "Info": "Stoke City's 2010/11 players have been dropped into your starting squad",
+   "Player IDs": "C307 C308 C309 C310 C311 C312 C313 C314 C315 C316 C317 C318 C319 C320 C321 C322 C323 C324",
+   "Manager": "CM53",
+   "Wage budget": "£0",
+   "Transfer budget": "£0",
+   "Transfers": 0
+},
+ {
+   "Date": "07/05/2027",
+   "Title": {
+      "team name": "Swiss Galaxy"
+   },
+   "Info": "Squad consists of 15 current Swiss players, and three lifted from history",
+   "Player IDs": "P1825 P3121 P2127 P1104 P121 P2477 P2606 P2968 P3269 P3758 P66 P2435 P3571 P2044 C270 C486 C884 P1663",
+   "Manager": "",
+   "Wage budget": "£0",
+   "Transfer budget": "£0",
+   "Transfers": 0
+},
+ {
+   "Date": "08/05/2027",
+   "Title": {
+      "team name": "Davids, etc."
+   },
+   "Info": "Starting squad consists of players called David, Davies or any equivalent",
+   "Player IDs": "P851 P3252 P3766 P837 P83 P40 P3067 P2901 P1248 P3500 P839 P510 P2251 P2488 P836 P834 P835 P2991",
+   "Manager": "M20",
+   "Wage budget": "£100,000",
+   "Transfer budget": "£50,000,000",
+   "Transfers": 0
+},
+ {
+   "Date": "09/05/2027",
+   "Title": {
+      "team name": "Midtable Transfer Ban II"
+   },
+   "Info": "Starting squad consists of a mixed-ability group who should sit around midtable - but you you're banned from making transfers for three seasons",
+   "Player IDs": "P202 P362 P11 P267 P694 P18 P223 P285 P638 P1452 P25 P1359 P71 P2860 P1652 P260 P3624 P1009",
+   "Manager": "M104",
+   "Wage budget": "£150,000",
+   "Transfer budget": "transferban:3",
+   "Transfers": 0
+},
+ {
+   "Date": "10/05/2027",
+   "Title": {
+      "team name": "Merino's XVIII"
+   },
+   "Info": "Just one former teammate, but ample investment - and Mikel Merino taking his first managerial job",
+   "Player IDs": "P3797",
+   "Manager": "CM60",
+   "Wage budget": "£750,000",
+   "Transfer budget": "300,000,000",
+   "Transfers": 17
+},
+ {
+   "Date": "11/05/2027",
+   "Title": {
+      "team name": "Peak CR7"
+   },
+   "Info": "Squad only contains Cristiano Ronaldo, circa 2013/14",
+   "Player IDs": "C1082",
+   "Manager": "",
+   "Wage budget": "£400,000",
+   "Transfer budget": "£200,000,000",
+   "Transfers": 17
+},
+ {
+   "Date": "12/05/2027",
+   "Title": {
+      "team name": "Viva O'Leary's Leeds"
+   },
+   "Info": "Leeds' 2000/01 players have been dropped into your starting squad",
+   "Player IDs": "C145 C146 C147 C148 C149 C150 C151 C152 C153 C154 C155 C156 C157 C158 C159 C160 C161 C162",
+   "Manager": "CM27",
+   "Wage budget": "£0",
+   "Transfer budget": "£0",
+   "Transfers": 0
+},
+ {
+   "Date": "13/05/2027",
+   "Title": {
+      "team name": "Italian core"
+   },
+   "Info": "Starting squad only contains four world-class Italians",
+   "Player IDs": "L4 L11 P572 P1761",
+   "Manager": "",
+   "Wage budget": "£400,000",
+   "Transfer budget": "£100,000,000",
+   "Transfers": 3
+},
+ {
+   "Date": "14/05/2027",
+   "Title": {
+      "team name": "Defence sorted II"
+   },
+   "Info": "Starting squad only has a 85+ back four - and room for four transfers - with the academy left to fill the gaps",
+   "Player IDs": "L21 L59 P799 P3013",
+   "Manager": "",
+   "Wage budget": "£220,000",
+   "Transfer budget": "£150,000,000",
+   "Transfers": 4
+},
+ {
+   "Date": "15/05/2027",
+   "Title": {
+      "team name": "Japanese Assemble"
+   },
+   "Info": "Starting squad contains players only from Japan",
+   "Player IDs": "P3332 P2321 P1635 P2367 P1894 P1505 P1729 P3356 P973 P1634 P3325 P3436 P2181 P3157 P3654 P3042 P3720 P1868",
+   "Manager": "M40",
+   "Wage budget": "£100,000",
+   "Transfer budget": "£50,000,000",
+   "Transfers": 0
+},
+ {
+   "Date": "16/05/2027",
+   "Title": {
+      "team name": "Lisbon Rules"
+   },
+   "Info": "Starting squad contains players who have played on either side of the Lisbon derby",
+   "Player IDs": "P1059 P1220 P1468 P156 P1560 P1616 P1632 P1835 P2367 P241 P2488 P2881 P3087 P3127 P3160 P3489 P485 P627",
+   "Manager": "M101",
+   "Wage budget": "£0",
+   "Transfer budget": "£0",
+   "Transfers": 0
+},
+ {
+   "Date": "17/05/2027",
+   "Title": {
+      "team name": "CF Cancers"
+   },
+   "Info": "Starting squad consists of players born between June 21 and July 22",
+   "Player IDs": "P1148 P1295 P1348 P1560 P1576 P1761 P2175 P2312 P2418 P268 P3017 P3178 P3567 P3578 P427 P491 P625 P848",
+   "Manager": "M126",
+   "Wage budget": "£100,000",
+   "Transfer budget": "£40,000,000",
+   "Transfers": 0
+},
+ {
+   "Date": "18/05/2027",
+   "Title": {
+      "team name": "Allianz Stadium vs. the World"
+   },
+   "Info": "Start the season with minus 10 points and a squad of players who have played for Juventus",
+   "Player IDs": "P3345 P603 P591 P1727 P498 P1313 P3016 P1866 P2020 P361 P3007 P2315 P2231 P1041 P684 P379 P3733 P2292",
+   "Manager": "M71",
+   "Wage budget": "£100,000",
+   "Transfer budget": "pointsdeduction:10",
+   "Transfers": 0
+},
+ {
+   "Date": "19/05/2027",
+   "Title": {
+      "team name": "Give Us An H"
+   },
+   "Info": "Starting squad contains players whose surnames start with H",
+   "Player IDs": "P1469 P1476 P1480 P1526 P1532 P1545 P1547 P1549 P1550 P1551 P1554 P1556 P1576 P1578 P1579 P1588 P1586 P1589",
+   "Manager": "M54",
+   "Wage budget": "£0",
+   "Transfer budget": "£0",
+   "Transfers": 0
+},
+ {
+   "Date": "20/05/2027",
+   "Title": {
+      "team name": "Viva Bhoys"
+   },
+   "Info": "Celtic's 2002/03 players have been dropped into your starting squad",
+   "Player IDs": "C973 C974 C975 C976 C977 C978 C979 C980 C981 C982 C983 C984 C985 C986 C987 C988 C989 C990",
+   "Manager": "CM18",
+   "Wage budget": "£0",
+   "Transfer budget": "£0",
+   "Transfers": 0
+},
+ {
+   "Date": "21/05/2027",
+   "Title": {
+      "team name": "El Cholo"
+   },
+   "Info": "No players in your starting squad - but 2010s Diego Simeone as your manager",
+   "Player IDs": "",
+   "Manager": "CM5",
+   "Wage budget": "£400,000",
+   "Transfer budget": "£200,000,000",
+   "Transfers": 18
+},
+ {
+   "Date": "22/05/2027",
+   "Title": {
+      "team name": "Talent Factory: PG"
+   },
+   "Info": "No transfers in your first season, no starting squad - but the money to build a Category A academy with Pep Guardiola in charge",
+   "Player IDs": "",
+   "Manager": "M85",
+   "Wage budget": "£30,000",
+   "Transfer budget": "£100,000,000",
+   "Transfers": 0
+},
+ {
+   "Date": "23/05/2027",
+   "Title": {
+      "team name": "Vorwärts Deutschland"
+   },
+   "Info": "German players from various points in history have been dropped into your starting squad",
+   "Player IDs": "C80 C97 C127 C308 C508 C510 C511 C518 C519 C775 C785 C889 C1063 C1072 C1077 C513 C517 C886",
+   "Manager": "CM12",
+   "Wage budget": "",
+   "Transfer budget": "",
+   "Transfers": 0
+},
+ {
+   "Date": "24/05/2027",
+   "Title": {
+      "team name": "75 City"
+   },
+   "Info": "Starting squad consists of 75-rated players",
+   "Player IDs": "P3388 P3477 P3055 P3234 P3278 P3295 P3374 P3493 P3179 P3084 P3189 P3135 P3074 P3471 P3205 P3258 P3127 P3197",
+   "Manager": "M118",
+   "Wage budget": "£100,000",
+   "Transfer budget": "£50,000,000",
+   "Transfers": 2
+},
+ {
+   "Date": "25/05/2027",
+   "Title": {
+      "team name": "Midtable FC 15"
+   },
+   "Info": "Starting squad consists of a mixed-ability group who should scrape midtable",
+   "Player IDs": "P2061 P3776 P976 P532 P1296 P3163 P3097 P2022 P1054 P3747 P618 P1666 P487 P1348 P72 P1988 P581 P3751",
+   "Manager": "",
+   "Wage budget": "£0",
+   "Transfer budget": "£0",
+   "Transfers": 0
+},
+ {
+   "Date": "26/05/2027",
+   "Title": {
+      "team name": "Peak KK & JT"
+   },
+   "Info": "Squad only contains peak Kevin Keegan and John Toshack",
+   "Player IDs": "C1110 C1109",
+   "Manager": "",
+   "Wage budget": "£400,000",
+   "Transfer budget": "£180,000,000",
+   "Transfers": 16
+},
+ {
+   "Date": "27/05/2027",
+   "Title": {
+      "team name": "Starts and Ends IV"
+   },
+   "Info": "Starting squad consists of players whose first name and surname start with the same letter",
+   "Player IDs": "P3442 P174 P108 P16 P1631 P3048 P3491 P3366 P107 P2678 P53 P2563 P3342 P427 P1057 P131 P1564 P1978",
+   "Manager": "M52",
+   "Wage budget": "",
+   "Transfer budget": "",
+   "Transfers": 0
+},
+ {
+   "Date": "28/05/2027",
+   "Title": {
+      "team name": "Class of '98"
+   },
+   "Info": "Starting squad consists of players born in 1998",
+   "Player IDs": "P3547 P800 P2617 P1148 P2156 P2339 P977 P2053 P963 P1705 P399 P254 P387 P1137 P1241 P2084 P973 P2632",
+   "Manager": "",
+   "Wage budget": "£200,000",
+   "Transfer budget": "£50,000,000",
+   "Transfers": 0
+},
+ {
+   "Date": "29/05/2027",
+   "Title": {
+      "team name": "West London Calling"
+   },
+   "Info": "Starting squad contains players who have played on either side of the Brentford-Fulham divide",
+   "Player IDs": "P1215 P1532 P1645 P1671 P1678 P1970 P1988 P2539 P2805 P2958 P2979 P3394 P3471 P369 P733 P823 P952 P2209",
+   "Manager": "M112",
+   "Wage budget": "£0",
+   "Transfer budget": "£0",
+   "Transfers": 0
+},
+ {
+   "Date": "30/05/2027",
+   "Title": {
+      "team name": "Give Us An I"
+   },
+   "Info": "Starting squad contains players whose surnames start with I",
+   "Player IDs": "P1632 P1642 P1609 P1616 P1635 P1631 P1634 P1612 P1644 P1626 P1597 P1629 P1637 P1610 P1628 P1645 P1601 P1622",
+   "Manager": "M6",
+   "Wage budget": "£0",
+   "Transfer budget": "£0",
+   "Transfers": 0
+},
+ {
+   "Date": "31/05/2027",
+   "Title": {
+      "team name": "CF Leos"
+   },
+   "Info": "Starting squad consists of players born between July 23 and August 22",
+   "Player IDs": "P1053 P1191 P1297 P1681 P1895 P2625 P2762 P2822 P2958 P3236 P3402 P3415 P3489 P487 P639 P653 P857 P966",
+   "Manager": "M100",
+   "Wage budget": "£100,000",
+   "Transfer budget": "£40,000,000",
+   "Transfers": 0
+},
+ {
+   "Date": "01/06/2027",
+   "Title": {
+      "team name": "Viva Entertainers"
+   },
+   "Info": "Newcastle United's 1993/94 players have been dropped into your starting squad",
+   "Player IDs": "C55 C56 C57 C58 C59 C60 C61 C62 C63 C64 C65 C66 C67 C68 C69 C70 C71 C72",
+   "Manager": "CM39",
+   "Wage budget": "£0",
+   "Transfer budget": "£0",
+   "Transfers": 0
+},
+ {
+   "Date": "02/06/2027",
+   "Title": {
+      "team name": "Wijnaldum's XVIII"
+   },
+   "Info": "Just one former teammate, but ample investment - and Gini Wijnaldum taking his first managerial job",
+   "Player IDs": "P853",
+   "Manager": "CM69",
+   "Wage budget": "£750,000",
+   "Transfer budget": "300,000,000",
+   "Transfers": 17
+},
+ {
+   "Date": "03/06/2027",
+   "Title": {
+      "team name": "Frontline sorted III"
+   },
+   "Info": "Starting squad only has a 85+ front three - and room for four transfers - with the academy left to fill the gaps",
+   "Player IDs": "L5 P1904 P2614",
+   "Manager": "",
+   "Wage budget": "£220,000",
+   "Transfer budget": "£150,000,000",
+   "Transfers": 4
+},
+ {
+   "Date": "04/06/2027",
+   "Title": {
+      "team name": "76 City"
+   },
+   "Info": "Starting squad consists of 76-rated players",
+   "Player IDs": "P610 P682 P1 P1529 P83 P244 P283 P367 P369 P291 P500 P2 P72 P368 P80 P111 P43 P432",
+   "Manager": "M71",
+   "Wage budget": "£100,000",
+   "Transfer budget": "£50,000,000",
+   "Transfers": 2
+},
+ {
+   "Date": "05/06/2027",
+   "Title": {
+      "team name": "Matic's XVIII"
+   },
+   "Info": "Just one former teammate, but ample investment - and Nemanja Matic taking his first managerial job",
+   "Player IDs": "P792",
+   "Manager": "CM70",
+   "Wage budget": "£750,000",
+   "Transfer budget": "300,000,000",
+   "Transfers": 17
+},
+ {
+   "Date": "06/06/2027",
+   "Title": {
+      "team name": "Viva Portugal"
+   },
+   "Info": "Portugal's 2006 World Cup players have been dropped into your starting squad",
+   "Player IDs": "C613 C614 C615 C616 C617 C618 C619 C620 C621 C622 C623 C624 C625 C626 C627 C628 C629 C630",
+   "Manager": "CM44",
+   "Wage budget": "£0",
+   "Transfer budget": "£0",
+   "Transfers": 0
+},
+ {
+   "Date": "07/06/2027",
+   "Title": {
+      "team name": "British core"
+   },
+   "Info": "Starting squad only contains four world-class British players",
+   "Player IDs": "L9 L24 L3 P349",
+   "Manager": "",
+   "Wage budget": "£400,000",
+   "Transfer budget": "£100,000,000",
+   "Transfers": 3
+},
+ {
+   "Date": "08/06/2027",
+   "Title": {
+      "team name": "Give Us A J"
+   },
+   "Info": "Starting squad contains players whose surnames start with J",
+   "Player IDs": "P1662 P1689 P1684 P1713 P1648 P1676 P1649 P1709 P1657 P1671 P1651 P1674 P1712 P1685 P1714 P1687 P1677 P1678",
+   "Manager": "M72",
+   "Wage budget": "£0",
+   "Transfer budget": "£0",
+   "Transfers": 0
+},
+ {
+   "Date": "09/06/2027",
+   "Title": {
+      "team name": "Seville-style"
+   },
+   "Info": "Starting squad contains players who have played on either side of El Derbi Sevillano",
+   "Player IDs": "P1147 P1608 P1629 P1702 P1850 P2057 P2115 P2314 P2510 P2762 P2916 P2967 P2987 P3195 P3252 P348 P600 P653",
+   "Manager": "M116",
+   "Wage budget": "£0",
+   "Transfer budget": "£0",
+   "Transfers": 0
+},
+ {
+   "Date": "10/06/2027",
+   "Title": {
+      "team name": "Six wins away"
+   },
+   "Info": "Start the season with minus 18 points, no money and no starting squad",
+   "Player IDs": "",
+   "Manager": "",
+   "Wage budget": "£100,000",
+   "Transfer budget": "pointsdeduction:18",
+   "Transfers": 18
+},
+ {
+   "Date": "11/06/2027",
+   "Title": {
+      "team name": "Hup Holland Hup"
+   },
+   "Info": "Dutch players from various points in history have been dropped into your starting squad",
+   "Player IDs": "C112 C134 C180 C206 C212 C386 C458 C472 C631 C636 C648 C649 C655 C727 C783 C887 C1056 C1087",
+   "Manager": "CM38",
+   "Wage budget": "£0",
+   "Transfer budget": "£0",
+   "Transfers": 0
+},
+ {
+   "Date": "12/06/2027",
+   "Title": {
+      "team name": "Midtable Transfer Ban III"
+   },
+   "Info": "Starting squad consists of a mixed-ability group who should sit around midtable - but you you're banned from making transfers for three seasons",
+   "Player IDs": "P2830 P44 P407 P108 P1763 P3437 P1649 P1392 P1743 P39 P862 P160 P1820 P125 P1738 P2396 P1841 P193",
+   "Manager": "M13",
+   "Wage budget": "£150,000",
+   "Transfer budget": "transferban:3",
+   "Transfers": 0
+},
+ {
+   "Date": "13/06/2027",
+   "Title": {
+      "team name": "72 City"
+   },
+   "Info": "Starting squad consists of 72-rated players",
+   "Player IDs": "P362 P416 P144 P267 P18 P62 P285 P394 P433 P25 P95 P103 P41 P99 P260 P517 P24 P27",
+   "Manager": "M80",
+   "Wage budget": "£100,000",
+   "Transfer budget": "£50,000,000",
+   "Transfers": 2
+},
+ {
+   "Date": "14/06/2027",
+   "Title": {
+      "team name": "The Sergeant"
+   },
+   "Info": "No players in your starting squad - but 2000s Fabio Capello as your manager",
+   "Player IDs": "",
+   "Manager": "CM47",
+   "Wage budget": "£400,000",
+   "Transfer budget": "£200,000,000",
+   "Transfers": 18
+},
+ {
+   "Date": "15/06/2027",
+   "Title": {
+      "team name": "Give Us A K"
+   },
+   "Info": "Starting squad contains players whose surnames start with K",
+   "Player IDs": "P1772 P1825 P1761 P1795 P1807 P1865 P1785 P1866 P1743 P1878 P1729 P1899 P1818 P1895 P1820 P1738 P1762 P1841",
+   "Manager": "M81",
+   "Wage budget": "£0",
+   "Transfer budget": "£0",
+   "Transfers": 0
+},
+ {
+   "Date": "16/06/2027",
+   "Title": {
+      "team name": "Viva Forest"
+   },
+   "Info": "Nottingham Forest's 2022/23 players have been dropped into your starting squad",
+   "Player IDs": "C811 C812 C813 C814 C815 C816 C817 C818 C819 C820 C821 C822 C823 C824 C825 C826 C827 C828",
+   "Manager": "CM40",
+   "Wage budget": "£0",
+   "Transfer budget": "£0",
+   "Transfers": 0
+},
+ {
+   "Date": "17/06/2027",
+   "Title": {
+      "team name": "Defence sorted III"
+   },
+   "Info": "Starting squad only has a 85+ back four - and room for four transfers - with the academy left to fill the gaps",
+   "Player IDs": "L47 L57 P2696 P3424",
+   "Manager": "",
+   "Wage budget": "£220,000",
+   "Transfer budget": "£150,000,000",
+   "Transfers": 4
+},
+ {
+   "Date": "18/06/2027",
+   "Title": {
+      "team name": "MF FC"
+   },
+   "Info": "Starting squad consists purely of midfielders (with two transfers left for two goalkeepers)",
+   "Player IDs": "P3347 P3547 P380 P853 P3757 P589 P1989 P1425 P1629 P1362 P1556 P3373 P755 P283 P2981 P2266",
+   "Manager": "M111",
+   "Wage budget": "£120,000",
+   "Transfer budget": "£80,000,000",
+   "Transfers": 2
+},
+ {
+   "Date": "19/06/2027",
+   "Title": {
+      "team name": "CF Virgos"
+   },
+   "Info": "Starting squad consists of players born between August 23 and September 22",
+   "Player IDs": "P132 P1362 P1421 P1616 P1766 P1838 P2158 P2176 P2318 P2328 P255 P3242 P3324 P3698 P3749 P636 P770 P84",
+   "Manager": "M34",
+   "Wage budget": "£100,000",
+   "Transfer budget": "£40,000,000",
+   "Transfers": 0
+},
+ {
+   "Date": "20/06/2027",
+   "Title": {
+      "team name": "Give Us A L"
+   },
+   "Info": "Starting squad contains players whose surnames start with L",
+   "Player IDs": "P2008 P2061 P2009 P1921 P1912 P1998 P2022 P2060 P2020 P1934 P2058 P1965 P2017 P2000 P1954 P1926 P2055 P1930",
+   "Manager": "M80",
+   "Wage budget": "£0",
+   "Transfer budget": "£0",
+   "Transfers": 0
+},
+ {
+   "Date": "21/06/2027",
+   "Title": {
+      "team name": "Merseyside Madness"
+   },
+   "Info": "Starting squad contains players who have played on either side of the Merseyside Derby",
+   "Player IDs": "P1279 P1367 P1408 P1645 P1690 P1772 P2625 P2793 P2862 P2956 P3046 P3317 P3368 P482 P491 P581 P943 P1290",
+   "Manager": "M91",
+   "Wage budget": "£0",
+   "Transfer budget": "£0",
+   "Transfers": 0
+},
+ {
+   "Date": "22/06/2027",
+   "Title": {
+      "team name": "Swedes Assemble"
+   },
+   "Info": "Starting squad contains players only from Norway",
+   "Player IDs": "P1627 P1899 P1998 P213 P1468 P1934 P3339 P1551 P1683 P3779 P105 P1573 P817 P438 P1120 P2563 P3675 P1619",
+   "Manager": "M38",
+   "Wage budget": "£100,000",
+   "Transfer budget": "£50,000,000",
+   "Transfers": 0
+},
+ {
+   "Date": "23/06/2027",
+   "Title": {
+      "team name": "71 City"
+   },
+   "Info": "Starting squad consists of 71-rated players",
+   "Player IDs": "P44 P92 P108 P171 P34 P68 P230 P429 P45 P36 P53 P160 P125 P221 P55 P401 P193 P211",
+   "Manager": "M78",
+   "Wage budget": "£100,000",
+   "Transfer budget": "£50,000,000",
+   "Transfers": 2
+},
+ {
+   "Date": "24/06/2027",
+   "Title": {
+      "team name": "Five-year ban II"
+   },
+   "Info": "Starting squad is world-class... but you have a five-year transfer ban and have to manage how you evolve your team",
+   "Player IDs": "P3206 P2711 P1186 P932 P2745 P109 P2617 P1435 P800 P2515 P1385 P1875 P2656 P2685 P380 P2735 P572 P2493",
+   "Manager": "M107",
+   "Wage budget": "£0",
+   "Transfer budget": "transferban:5",
+   "Transfers": 0
+},
+ {
+   "Date": "25/06/2027",
+   "Title": {
+      "team name": "Viva Agueroooo"
+   },
+   "Info": "Manchester City's 2011/12 players have been dropped into your starting squad",
+   "Player IDs": "C325 C326 C327 C328 C329 C330 C331 C332 C333 C334 C335 C336 C337 C338 C339 C340 C341 C342",
+   "Manager": "CM32",
+   "Wage budget": "£0",
+   "Transfer budget": "£0",
+   "Transfers": 0
+},
+ {
+   "Date": "26/06/2027",
+   "Title": {
+      "team name": "Peak Lewandowski"
+   },
+   "Info": "Squad only contains Robert Lewandowski, circa 2014/15",
+   "Player IDs": "C1083",
+   "Manager": "",
+   "Wage budget": "£400,000",
+   "Transfer budget": "£200,000,000",
+   "Transfers": 17
+},
+ {
+   "Date": "27/06/2027",
+   "Title": {
+      "team name": "South coast stars"
+   },
+   "Info": "Starting squad contains players who have played on either side of the Bournemouth-Southampton divide",
+   "Player IDs": "P1012 P1501 P1773 P1785 P1818 P1943 P2123 P3149 P3161 P3234 P324 P3242 P3295 P3372 P3642 P3749 P510 P696",
+   "Manager": "M73",
+   "Wage budget": "£0",
+   "Transfer budget": "£0",
+   "Transfers": 0
+},
+ {
+   "Date": "28/06/2027",
+   "Title": {
+      "team name": "Class of '99"
+   },
+   "Info": "Starting squad consists of players born in 1999",
+   "Player IDs": "P1954 P1962 P2061 P2318 P3113 P3280 P3372 P3797 P22 P163 P3581 P390 P465 P1297 P1401 P2203 P667 P3763",
+   "Manager": "",
+   "Wage budget": "£200,000",
+   "Transfer budget": "£50,000,000",
+   "Transfers": 0
+},
+ {
+   "Date": "29/06/2027",
+   "Title": {
+      "team name": "Give Us A M"
+   },
+   "Info": "Starting squad contains players whose surnames start with M",
+   "Player IDs": "P2106 P2156 P2410 P2339 P2418 P2289 P2069 P2318 P2116 P2240 P2328 P2075 P2384 P2312 P2321 P2239 P2141 P2175",
+   "Manager": "M40",
+   "Wage budget": "£0",
+   "Transfer budget": "£0",
+   "Transfers": 0
+},
+ {
+   "Date": "30/06/2027",
+   "Title": {
+      "team name": "Americans Assemble"
+   },
+   "Info": "Starting squad contains players only from the United States",
+   "Player IDs": "P2958 P3423 P618 P22 P1251 P268 P2 P2936 P3709 P632 P2231 P1838 P2757 P2232 P3229 P452 P3111 P442",
+   "Manager": "M39",
+   "Wage budget": "£100,000",
+   "Transfer budget": "£50,000,000",
+   "Transfers": 0
+},
+ {
+   "Date": "01/07/2027",
+   "Title": {
+      "team name": "Goodison vs. the World"
+   },
+   "Info": "Start the season with minus 8 points and a squad of players who have played for Everton",
+   "Player IDs": "P2793 P2730 P491 P3368 P2308 P2440 P943 P1308 P1361 P1442 P291 P1645 P3625 P1409 P2239 P824 P1799 P581",
+   "Manager": "M104",
+   "Wage budget": "£100,000",
+   "Transfer budget": "pointsdeduction:8",
+   "Transfers": 0
+},
+ {
+   "Date": "02/07/2027",
+   "Title": {
+      "team name": "Viva Cottagers"
+   },
+   "Info": "Fulham's 2009/10 players have been dropped into your starting squad",
+   "Player IDs": "C739 C740 C741 C742 C743 C744 C745 C746 C747 C748 C749 C750 C751 C752 C753 C754 C755 C756",
+   "Manager": "CM23",
+   "Wage budget": "£0",
+   "Transfer budget": "£0",
+   "Transfers": 0
+},
+ {
+   "Date": "03/07/2027",
+   "Title": {
+      "team name": "Schar's XVIII"
+   },
+   "Info": "Just one former teammate, but ample investment - and Fabian Schar taking his first managerial job",
+   "Player IDs": "P2291",
+   "Manager": "CM79",
+   "Wage budget": "£750,000",
+   "Transfer budget": "300,000,000",
+   "Transfers": 17
+},
+ {
+   "Date": "04/07/2027",
+   "Title": {
+      "team name": "San Siro vs. the World"
+   },
+   "Info": "Start the season with minus 8 points and a squad of players who have played for Milan",
+   "Player IDs": "P822 P1727 P3402 P2736 L55 P3438 P2020 P792 P2726 P2100 P855 P487 P3033 P1090 P1954 P2606 P3196 P988",
+   "Manager": "M11",
+   "Wage budget": "£100,000",
+   "Transfer budget": "pointsdeduction:8",
+   "Transfers": 0
+},
+ {
+   "Date": "05/07/2027",
+   "Title": {
+      "team name": "Tough Assignment"
+   },
+   "Info": "Starting squad has an average OVR rating under 58",
+   "Player IDs": "P746 P271 P1270 P2192 P2213 P2280 P442 P1044 P2191 P2824 P2859 P3144 P3303 P685 P1356 P3533 P3659 P173",
+   "Manager": "",
+   "Wage budget": "£0",
+   "Transfer budget": "£0",
+   "Transfers": 5
+},
+ {
+   "Date": "06/07/2027",
+   "Title": {
+      "team name": "Give Us A N"
+   },
+   "Info": "Starting squad contains players whose surnames start with N",
+   "Player IDs": "P2493 P2550 P2499 P2541 P2472 P2509 P2510 P2492 P2539 P2473 P2176 P2532 P2559 P2489 P2477 P2557 P2466 P2533",
+   "Manager": "M52",
+   "Wage budget": "£0",
+   "Transfer budget": "£0",
+   "Transfers": 0
+},
+ {
+   "Date": "07/07/2027",
+   "Title": {
+      "team name": "Defence sorted III"
+   },
+   "Info": "Starting squad only has a 85+ back four - and room for four transfers - with the academy left to fill the gaps",
+   "Player IDs": "L26 L100 P3050 P1465",
+   "Manager": "",
+   "Wage budget": "£220,000",
+   "Transfer budget": "£150,000,000",
+   "Transfers": 4
+},
+ {
+   "Date": "08/07/2027",
+   "Title": {
+      "team name": "Klassieker Madness"
+   },
+   "Info": "Starting squad contains players who have played on either side of the Klassieker rivalry",
+   "Player IDs": "P1341 P1408 P1500 P1507 P1812 P2312 P2704 P2921 P3331 P3373 P3422 P2626 P3677 P371 P399 P422 P507 P857",
+   "Manager": "M69",
+   "Wage budget": "£0",
+   "Transfer budget": "£0",
+   "Transfers": 0
+},
+ {
+   "Date": "09/07/2027",
+   "Title": {
+      "team name": "Give Us A O"
+   },
+   "Info": "Starting squad contains players whose surnames start with O",
+   "Player IDs": "P2613 P2610 P2652 P2569 P2665 P2634 P2616 P2675 P2689 P2625 P2577 P2590 P2644 P2646 P2606 P2593 P2635 P2630",
+   "Manager": "M35",
+   "Wage budget": "£0",
+   "Transfer budget": "£0",
+   "Transfers": 0
+},
+ {
+   "Date": "10/07/2027",
+   "Title": {
+      "team name": "Viva Murciélagos"
+   },
+   "Info": "Valencia's 2003/04 players have been dropped into your starting squad",
+   "Player IDs": "C1009 C1010 C1011 C1012 C1013 C1014 C1015 C1016 C1017 C1018 C1019 C1020 C1021 C1022 C1023 C1024 C1025 C1026",
+   "Manager": "CM56",
+   "Wage budget": "£0",
+   "Transfer budget": "£0",
+   "Transfers": 0
+},
+ {
+   "Date": "11/07/2027",
+   "Title": {
+      "team name": "World Champions core IV"
+   },
+   "Info": "Starting squad only contains five World Cup winners",
+   "Player IDs": "L12 L19 P2964 P1929 P2158",
+   "Manager": "",
+   "Wage budget": "£480,000",
+   "Transfer budget": "£120,000,000",
+   "Transfers": 0
+},
+ {
+   "Date": "12/07/2027",
+   "Title": {
+      "team name": "Johns, etc."
+   },
+   "Info": "Starting squad consists of players called John, Jon, Joao or any equivalent",
+   "Player IDs": "P3616 P3012 P603 P2138 P2672 P3308 P2149 P2695 P2709 P1391 P1360 P2342 P3340 P3727 P1610 P1026 P3008 P834",
+   "Manager": "M79",
+   "Wage budget": "£100,000",
+   "Transfer budget": "£50,000,000",
+   "Transfers": 0
+},
+ {
+   "Date": "13/07/2027",
+   "Title": {
+      "team name": "Pele FC"
+   },
+   "Info": "Starting squad consists solely of a 17-year-old Pele",
+   "Player IDs": "C1113",
+   "Manager": "",
+   "Wage budget": "£300,000",
+   "Transfer budget": "£200,000,000",
+   "Transfers": 17
+},
+ {
+   "Date": "14/07/2027",
+   "Title": {
+      "team name": "Kamaras and Konés"
+   },
+   "Info": "Starting squad consists of players called either Koné or Kamara/Camara",
+   "Player IDs": "P1729 P1730 P1731 P1732 P1733 P1734 P1735 P1736 P1852 P1853 P1854 P1855 P1856 P1857 P582 P583 P585 P587",
+   "Manager": "",
+   "Wage budget": "£0",
+   "Transfer budget": "£0",
+   "Transfers": 0
+},
+ {
+   "Date": "15/07/2027",
+   "Title": {
+      "team name": "FC Frugal VII"
+   },
+   "Info": "No players included, only £29m in transfer budget - but a much bigger wage budget",
+   "Player IDs": "",
+   "Manager": "",
+   "Wage budget": "£1,000,000",
+   "Transfer budget": "£29,000,000",
+   "Transfers": 18
+},
+ {
+   "Date": "16/07/2027",
+   "Title": {
+      "team name": "Koke's XVIII"
+   },
+   "Info": "Just one former teammate, but ample investment - and Koke taking his first managerial job",
+   "Player IDs": "P238",
+   "Manager": "CM75",
+   "Wage budget": "£750,000",
+   "Transfer budget": "300,000,000",
+   "Transfers": 17
+},
+ {
+   "Date": "17/07/2027",
+   "Title": {
+      "team name": "Peak VVD"
+   },
+   "Info": "Squad only contains Virgil van Dijk, circa 2018/19",
+   "Player IDs": "C1087",
+   "Manager": "",
+   "Wage budget": "£400,000",
+   "Transfer budget": "£200,000,000",
+   "Transfers": 17
+},
+ {
+   "Date": "18/07/2027",
+   "Title": {
+      "team name": "Viva Gers"
+   },
+   "Info": "Rangers' 2007/08 players have been dropped into your starting squad",
+   "Player IDs": "C1000 C1001 C1002 C1003 C1004 C1005 C1006 C1007 C1008 C991 C992 C993 C994 C995 C996 C997 C998 C999",
+   "Manager": "CM45",
+   "Wage budget": "£0",
+   "Transfer budget": "£0",
+   "Transfers": 0
+},
+ {
+   "Date": "19/07/2027",
+   "Title": {
+      "team name": "Give Us A P"
+   },
+   "Info": "Starting squad contains players whose surnames start with P",
+   "Player IDs": "P2793 P2830 P2758 P2730 P2736 P2805 P2742 P2720 P2756 P2709 P2705 P2726 P2707 P2822 P2860 P2806 P2734 P2762",
+   "Manager": "M109",
+   "Wage budget": "£0",
+   "Transfer budget": "£0",
+   "Transfers": 0
+},
+ {
+   "Date": "20/07/2027",
+   "Title": {
+      "team name": "World Champions core V"
+   },
+   "Info": "Starting squad only contains five World Cup winners",
+   "Player IDs": "L66 L102 P799 P2493 P2155",
+   "Manager": "",
+   "Wage budget": "£480,000",
+   "Transfer budget": "£120,000,000",
+   "Transfers": 0
+},
+ {
+   "Date": "21/07/2027",
+   "Title": {
+      "team name": "CF Libras"
+   },
+   "Info": "Starting squad consists of players born between September 23 and October 23",
+   "Player IDs": "P1141 P1184 P1722 P1773 P2079 P2106 P2289 P258 P2705 P2758 P2806 P2948 P3468 P350 P3625 P3670 P3716 P691",
+   "Manager": "M42",
+   "Wage budget": "£100,000",
+   "Transfer budget": "£40,000,000",
+   "Transfers": 0
+},
+ {
+   "Date": "22/07/2027",
+   "Title": {
+      "team name": "MF FC 2"
+   },
+   "Info": "Starting squad consists purely of midfielders (with two transfers left for two goalkeepers)",
+   "Player IDs": "P2735 P2012 P1482 P1645 P3142 P3260 P1986 P1918 P1979 P1308 P1368 P2231 P112 P1410 P2091 P2336",
+   "Manager": "M111",
+   "Wage budget": "£120,000",
+   "Transfer budget": "£80,000,000",
+   "Transfers": 0
+},
+ {
+   "Date": "23/07/2027",
+   "Title": {
+      "team name": "Viva Wilder"
+   },
+   "Info": "Sheffield United's 2020/21 players have been dropped into your starting squad",
+   "Player IDs": "C217 C218 C219 C220 C221 C222 C223 C224 C225 C226 C227 C228 C229 C230 C231 C232 C233 C234",
+   "Manager": "CM50",
+   "Wage budget": "£0",
+   "Transfer budget": "£0",
+   "Transfers": 0
+},
+ {
+   "Date": "24/07/2027",
+   "Title": {
+      "team name": "Rooney FC"
+   },
+   "Info": "Starting squad consists solely of a 16-year-old Wayne Rooney",
+   "Player IDs": "C1114",
+   "Manager": "",
+   "Wage budget": "£300,000",
+   "Transfer budget": "£250,000,000",
+   "Transfers": 17
+},
+ {
+   "Date": "25/07/2027",
+   "Title": {
+      "team name": "Peak Bale"
+   },
+   "Info": "Squad only contains Gareth Bale, circa 2008/09",
+   "Player IDs": "C1088",
+   "Manager": "",
+   "Wage budget": "£400,000",
+   "Transfer budget": "£200,000,000",
+   "Transfers": 17
+},
+ {
+   "Date": "26/07/2027",
+   "Title": {
+      "team name": "Alaba's XVIII"
+   },
+   "Info": "Just one former teammate, but ample investment - and David Alaba taking his first managerial job",
+   "Player IDs": "P1111",
+   "Manager": "CM80",
+   "Wage budget": "£750,000",
+   "Transfer budget": "300,000,000",
+   "Transfers": 17
+},
+ {
+   "Date": "27/07/2027",
+   "Title": {
+      "team name": "FC Frugal VIII"
+   },
+   "Info": "No players included, only £30m in transfer budget - but a much bigger wage budget",
+   "Player IDs": "",
+   "Manager": "",
+   "Wage budget": "£1,000,000",
+   "Transfer budget": "£30,000,000",
+   "Transfers": 18
+},
+ {
+   "Date": "28/07/2027",
+   "Title": {
+      "team name": "Give Us A R"
+   },
+   "Info": "Starting squad contains players whose surnames start with R",
+   "Player IDs": "P2920 P2884 P2907 P2954 P2986 P2936 P2901 P2956 P2934 P2918 P2872 P2950 P2885 P2977 P2948 P2878 P2881 P3024",
+   "Manager": "M10",
+   "Wage budget": "£0",
+   "Transfer budget": "£0",
+   "Transfers": 0
+},
+ {
+   "Date": "29/07/2027",
+   "Title": {
+      "team name": "Midfield sorted III"
+   },
+   "Info": "Starting squad only has a 85+ midfield trio - and room for four transfers - with the academy left to fill the gaps",
+   "Player IDs": "L1 P1151 P138",
+   "Manager": "",
+   "Wage budget": "£220,000",
+   "Transfer budget": "£150,000,000",
+   "Transfers": 4
+},
+ {
+   "Date": "30/07/2027",
+   "Title": {
+      "team name": "Sommer's XVIII"
+   },
+   "Info": "Just one former teammate, but ample investment - and Yann Sommer taking his first managerial job",
+   "Player IDs": "P447",
+   "Manager": "CM84",
+   "Wage budget": "£750,000",
+   "Transfer budget": "300,000,000",
+   "Transfers": 17
+},
+ {
+   "Date": "31/07/2027",
+   "Title": {
+      "team name": "Starts and Ends V"
+   },
+   "Info": "Starting squad consists of players whose first name and surname start with the same letter",
+   "Player IDs": "P3488 P3158 P3086 P58 P3308 P83 P3110 P3316 P142 P2995 P93 P1148 P103 P74 P2485 P2663 P3203 P3024",
+   "Manager": "M31",
+   "Wage budget": "",
+   "Transfer budget": "",
+   "Transfers": 0
+},
+ {
+   "Date": "01/08/2027",
+   "Title": {
+      "team name": "Midtable FC 16"
+   },
+   "Info": "Starting squad consists of a mixed-ability group who should scrape midtable",
+   "Player IDs": "P3489 P1234 P2652 P11 P3121 P575 P672 P3491 P3280 P1391 P1388 P3782 P1748 P2171 P2646 P1346 P1141 P425",
+   "Manager": "",
+   "Wage budget": "£0",
+   "Transfer budget": "£0",
+   "Transfers": 0
+},
+ {
+   "Date": "02/08/2027",
+   "Title": {
+      "team name": "Viva Saints"
+   },
+   "Info": "Southampton's 2013/14 players have been dropped into your starting squad",
+   "Player IDs": "C271 C272 C273 C274 C275 C276 C277 C278 C279 C280 C281 C282 C283 C284 C285 C286 C287 C288",
+   "Manager": "CM51",
+   "Wage budget": "£0",
+   "Transfer budget": "£0",
+   "Transfers": 0
+},
+ {
+   "Date": "03/08/2027",
+   "Title": {
+      "team name": "Glasgow Rules"
+   },
+   "Info": "Starting squad contains players who have played on either side of the Old Firm derby",
+   "Player IDs": "P1115 P114 P1505 P1699 P1731 P2229 P2577 P2730 P1689 P304 P3197 P1774 P3419 P3423 P607 P63 P632 P837",
+   "Manager": "M7",
+   "Wage budget": "£0",
+   "Transfer budget": "£0",
+   "Transfers": 0
+},
+ {
+   "Date": "04/08/2027",
+   "Title": {
+      "team name": "Groß's XVIII"
+   },
+   "Info": "Just one former teammate, but ample investment - and Pascal Groß taking his first managerial job",
+   "Player IDs": "P334",
+   "Manager": "CM82",
+   "Wage budget": "£750,000",
+   "Transfer budget": "300,000,000",
+   "Transfers": 17
+},
+ {
+   "Date": "05/08/2027",
+   "Title": {
+      "team name": "Talent Factory: CA"
+   },
+   "Info": "No transfers in your first season, no starting squad - but the money to build a Category A academy with Carlo Ancelotti in charge",
+   "Player IDs": "",
+   "Manager": "M11",
+   "Wage budget": "£30,000",
+   "Transfer budget": "£100,000,000",
+   "Transfers": 0
+},
+ {
+   "Date": "06/08/2027",
+   "Title": {
+      "team name": "The Ice Man"
+   },
+   "Info": "No players in your starting squad - but 2000s Sven Goran-Eriksson as your manager",
+   "Player IDs": "",
+   "Manager": "CM26",
+   "Wage budget": "£400,000",
+   "Transfer budget": "£200,000,000",
+   "Transfers": 18
+},
+ {
+   "Date": "07/08/2027",
+   "Title": {
+      "team name": "Viva Albiceleste"
+   },
+   "Info": "Argentina's 2022 World Cup winners have been dropped into your starting squad",
+   "Player IDs": "C541 C542 C543 C544 C545 C546 C547 C548 C549 C550 C551 C552 C553 C554 C555 C556 C557 C558",
+   "Manager": "CM2",
+   "Wage budget": "£0",
+   "Transfer budget": "£0",
+   "Transfers": 0
+},
+ {
+   "Date": "08/08/2027",
+   "Title": {
+      "team name": "CF Scorpios"
+   },
+   "Info": "Starting squad consists of players born between October 24 and November 21",
+   "Player IDs": "P1041 P1169 P1349 P1585 P1785 P1795 P2009 P2287 P2417 P2577 P2734 P3160 P3280 P3491 P3531 P3745 P589 P682",
+   "Manager": "M116",
+   "Wage budget": "£100,000",
+   "Transfer budget": "£40,000,000",
+   "Transfers": 0
+},
+ {
+   "Date": "09/08/2027",
+   "Title": {
+      "team name": "Midtable Transfer Ban III"
+   },
+   "Info": "Starting squad consists of a mixed-ability group who should sit around midtable - but you you're banned from making transfers for three seasons",
+   "Player IDs": "P316 P416 P3274 P431 P1016 P2733 P544 P1316 P1862 P3651 P2054 P2750 P2755 P3298 P1784 P1434 P1601 P1345",
+   "Manager": "M121",
+   "Wage budget": "£150,000",
+   "Transfer budget": "transferban:3",
+   "Transfers": 0
+},
+ {
+   "Date": "10/08/2027",
+   "Title": {
+      "team name": "Cesc FC"
+   },
+   "Info": "Starting squad consists solely of a 16-year-old Cesc Fabregas",
+   "Player IDs": "C1115",
+   "Manager": "",
+   "Wage budget": "£300,000",
+   "Transfer budget": "£250,000,000",
+   "Transfers": 17
+},
+ {
+   "Date": "11/08/2027",
+   "Title": {
+      "team name": "Moutinho's XVIII"
+   },
+   "Info": "Just one former teammate, but ample investment - and Joao Moutinho taking his first managerial job",
+   "Player IDs": "P380",
+   "Manager": "CM67",
+   "Wage budget": "£750,000",
+   "Transfer budget": "300,000,000",
+   "Transfers": 17
+},
+ {
+   "Date": "12/08/2027",
+   "Title": {
+      "team name": "Five-year ban III"
+   },
+   "Info": "Starting squad is world-class... but you have a five-year transfer ban and have to manage how you evolve your team",
+   "Player IDs": "P1332 P1315 P1730 P1853 P2576 P2034 P2894 P1650 P2012 P475 P2155 P1075 P1680 P3038 P2732 P2493 P3332 P459",
+   "Manager": "M24",
+   "Wage budget": "£0",
+   "Transfer budget": "transferban:5",
+   "Transfers": 0
+},
+ {
+   "Date": "13/08/2027",
+   "Title": {
+      "team name": "CF Sagittariuses"
+   },
+   "Info": "Starting squad consists of players born between November 22 and December 21",
+   "Player IDs": "P1035 P1059 P1772 P1825 P2019 P2075 P2187 P2240 P2473 P2590 P3112 P3121 P3487 P364 P3646 P3662 P748 P950",
+   "Manager": "M24",
+   "Wage budget": "£100,000",
+   "Transfer budget": "£40,000,000",
+   "Transfers": 0
+},
+ {
+   "Date": "14/08/2027",
+   "Title": {
+      "team name": "Give Us A S"
+   },
+   "Info": "Starting squad contains players whose surnames start with S",
+   "Player IDs": "P3158 P3345 P3285 P3160 P3308 P3112 P3178 P3275 P3305 P3149 P3096 P3065 P3262 P3046 P3074 P3205 P3170 P3254",
+   "Manager": "M89",
+   "Wage budget": "£0",
+   "Transfer budget": "£0",
+   "Transfers": 0
+},
+ {
+   "Date": "15/08/2027",
+   "Title": {
+      "team name": "FC Frugal IX"
+   },
+   "Info": "No players included, only £46m in transfer budget - but a much bigger wage budget",
+   "Player IDs": "",
+   "Manager": "",
+   "Wage budget": "£1,000,000",
+   "Transfer budget": "£46,000,000",
+   "Transfers": 18
+},
+ {
+   "Date": "16/08/2027",
+   "Title": {
+      "team name": "Viva Jacks"
+   },
+   "Info": "Swansea City's 2013/14 players have been dropped into your starting squad",
+   "Player IDs": "C1045 C1046 C1047 C1048 C1049 C1050 C1051 C1052 C1053 C1054 C1055 C1056 C1057 C1058 C1059 C1060 C1061 C1062",
+   "Manager": "CM54",
+   "Wage budget": "",
+   "Transfer budget": "",
+   "Transfers": 4
+},
+ {
+   "Date": "17/08/2027",
+   "Title": {
+      "team name": "Frontline sorted IV"
+   },
+   "Info": "Starting squad only has a 85+ front three - and room for four transfers - with the academy left to fill the gaps",
+   "Player IDs": "L89 P2203 P3043",
+   "Manager": "",
+   "Wage budget": "£220,000",
+   "Transfer budget": "£150,000,000",
+   "Transfers": 0
+},
+ {
+   "Date": "18/08/2027",
+   "Title": {
+      "team name": "Delle Alpi vs. the World"
+   },
+   "Info": "Start the season with minus 9 points and a squad of players who have played for Juventus",
+   "Player IDs": "L11 L25 P2986 P1589 P967 P598 P3275 P2749 P2116 P3758 P1966 P87 P1899 P3763 P3262 P2646 P748 P3733",
+   "Manager": "M11",
+   "Wage budget": "£100,000",
+   "Transfer budget": "pointsdeduction:9",
+   "Transfers": 0
+},
+ {
+   "Date": "19/08/2027",
+   "Title": {
+      "team name": "73 City"
+   },
+   "Info": "Starting squad consists of 73-rated players",
+   "Player IDs": "P202 P232 P11 P407 P15 P78 P223 P544 P295 P39 P93 P38 P71 P74 P214 P251 P13 P168",
+   "Manager": "M5",
+   "Wage budget": "£100,000",
+   "Transfer budget": "£50,000,000",
+   "Transfers": 2
+},
+ {
+   "Date": "20/08/2027",
+   "Title": {
+      "team name": "Cahill's XVIII"
+   },
+   "Info": "Just one former teammate, but ample investment - and Gary Cahill taking his first managerial job",
+   "Player IDs": "P1148",
+   "Manager": "CM78",
+   "Wage budget": "£750,000",
+   "Transfer budget": "300,000,000",
+   "Transfers": 17
+},
+ {
+   "Date": "21/08/2027",
+   "Title": {
+      "team name": "Viva Boro"
+   },
+   "Info": "Middlesbrough's 2003/04 players have been dropped into your starting squad",
+   "Player IDs": "C163 C164 C165 C166 C167 C168 C169 C170 C171 C172 C173 C174 C175 C176 C177 C178 C179 C180",
+   "Manager": "CM34",
+   "Wage budget": "",
+   "Transfer budget": "",
+   "Transfers": 0
+},
+ {
+   "Date": "22/08/2027",
+   "Title": {
+      "team name": "Sell to buy: LB edition"
+   },
+   "Info": "Starting squad consists purely of left-backs - and no budget",
+   "Player IDs": "P2069 P1785 P3017 P2958 P1297 P2440 P2956 P3511 P3663 P1507 P2792 P3230 P3505 P285 P553 P1886 P3392 P3744",
+   "Manager": "M7",
+   "Wage budget": "£0",
+   "Transfer budget": "£0",
+   "Transfers": 0
+},
+ {
+   "Date": "23/08/2027",
+   "Title": {
+      "team name": "World Champions core VI"
+   },
+   "Info": "Starting squad only contains five World Cup winners",
+   "Player IDs": "L73 L14 P109 P2986 P1118",
+   "Manager": "",
+   "Wage budget": "£480,000",
+   "Transfer budget": "£120,000,000",
+   "Transfers": 0
+},
+ {
+   "Date": "24/08/2027",
+   "Title": {
+      "team name": "Viva Irons"
+   },
+   "Info": "West Ham United's 2001/02 players have been dropped into your starting squad",
+   "Player IDs": "C181 C182 C183 C184 C185 C186 C187 C188 C189 C190 C191 C192 C193 C194 C195 C196 C197 C198",
+   "Manager": "CM59",
+   "Wage budget": "£0",
+   "Transfer budget": "£0",
+   "Transfers": 0
+},
+ {
+   "Date": "25/08/2027",
+   "Title": {
+      "team name": "Australasian Galaxy"
+   },
+   "Info": "Squad consists of 13 current players from Australia and New Zealand, and five lifted from history",
+   "Player IDs": "P3704 P3025 P560 P3283 P3627 P537 P1624 P2062 P453 P894 P2300 P403 P3463 C75 C77 C146 C161 C163",
+   "Manager": "",
+   "Wage budget": "£0",
+   "Transfer budget": "£0",
+   "Transfers": 0
+},
+ {
+   "Date": "26/08/2027",
+   "Title": {
+      "team name": "Coleman's XVIII"
+   },
+   "Info": "Just one former teammate, but ample investment - and Seamus Coleman taking his first managerial job",
+   "Player IDs": "P896",
+   "Manager": "CM72",
+   "Wage budget": "£750,000",
+   "Transfer budget": "300,000,000",
+   "Transfers": 17
+},
+ {
+   "Date": "27/08/2027",
+   "Title": {
+      "team name": "French core IV"
+   },
+   "Info": "Starting squad only contains four world-class Frenchmen",
+   "Player IDs": "P2203 P3526 P1075 L54",
+   "Manager": "",
+   "Wage budget": "£400,000",
+   "Transfer budget": "£100,000,000",
+   "Transfers": 0
+},
+ {
+   "Date": "28/08/2027",
+   "Title": {
+      "team name": "Viva Blues"
+   },
+   "Info": "Chelsea's 2003/04 players have been dropped into your starting squad",
+   "Player IDs": "C199 C200 C201 C202 C203 C204 C205 C206 C207 C208 C209 C210 C211 C212 C213 C214 C215 C216",
+   "Manager": "CM19",
+   "Wage budget": "£0",
+   "Transfer budget": "£0",
+   "Transfers": 0
+},
+ {
+   "Date": "29/08/2027",
+   "Title": {
+      "team name": "Koulibaly's XVIII"
+   },
+   "Info": "Just one former teammate, but ample investment - and Kalidou Koulibaly taking his first managerial job",
+   "Player IDs": "P1151",
+   "Manager": "CM76",
+   "Wage budget": "£750,000",
+   "Transfer budget": "300,000,000",
+   "Transfers": 17
+},
+ {
+   "Date": "30/08/2027",
+   "Title": {
+      "team name": "Peak Vidic"
+   },
+   "Info": "Squad only contains Nemanja Vidic, circa 2010/11",
+   "Player IDs": "C1092",
+   "Manager": "",
+   "Wage budget": "£400,000",
+   "Transfer budget": "£200,000,000",
+   "Transfers": 17
+},
+ {
+   "Date": "31/08/2027",
+   "Title": {
+      "team name": "CF Capricorns"
+   },
+   "Info": "Starting squad consists of players born between December 22 and January 19",
+   "Player IDs": "P1118 P1378 P1554 P1943 P2008 P2020 P2101 P2159 P2384 P2977 P3027 P3104 P3113 P32 P3422 P458 P633 P850",
+   "Manager": "M85",
+   "Wage budget": "£100,000",
+   "Transfer budget": "£40,000,000",
+   "Transfers": 0
+},
+ {
+   "Date": "01/09/2027",
+   "Title": {
+      "team name": "WC No-Shows II"
+   },
+   "Info": "Starting squad consists only of players who have never been to a World Cup",
+   "Player IDs": "P1098 P3262 P1748 P482 P1482 P1560 P1567 P1785 P1899 P2009 P2061 P2920 P3558 P3581 P3745 P491 L77 L96",
+   "Manager": "M71",
+   "Wage budget": "£50,000",
+   "Transfer budget": "£0",
+   "Transfers": 1
+},
+ {
+   "Date": "02/09/2027",
+   "Title": {
+      "team name": "FC Frugal X"
+   },
+   "Info": "No players included, only £44m in transfer budget - but a much bigger wage budget",
+   "Player IDs": "",
+   "Manager": "",
+   "Wage budget": "£1,000,000",
+   "Transfer budget": "£44,000,000",
+   "Transfers": 18
+},
+ {
+   "Date": "03/09/2027",
+   "Title": {
+      "team name": "Seven wins away"
+   },
+   "Info": "Start the season with minus 21 points, no money and no starting squad",
+   "Player IDs": "",
+   "Manager": "",
+   "Wage budget": "£100,000",
+   "Transfer budget": "pointsdeduction:21",
+   "Transfers": 18
+},
+ {
+   "Date": "04/09/2027",
+   "Title": {
+      "team name": "Give Us A T"
+   },
+   "Info": "Starting squad contains players whose surnames start with T",
+   "Player IDs": "P3387 P3489 P3394 P3485 P3352 P3365 P3491 P3419 P3381 P3438 P3414 P3418 P3422 P3495 P3398 P3487 P3447 P3415",
+   "Manager": "M23",
+   "Wage budget": "£0",
+   "Transfer budget": "£0",
+   "Transfers": 0
+},
+ {
+   "Date": "05/09/2027",
+   "Title": {
+      "team name": "Midtable FC 17"
+   },
+   "Info": "Starting squad consists of a mixed-ability group who should scrape midtable",
+   "Player IDs": "P1576 P3240 P2758 P2200 P1534 P3365 P40 P2318 P863 P413 P2367 P289 P2127 P2904 P1685 P3372 P3113 P3566",
+   "Manager": "",
+   "Wage budget": "£0",
+   "Transfer budget": "£0",
+   "Transfers": 0
+},
+ {
+   "Date": "06/09/2027",
+   "Title": {
+      "team name": "Viva Les Princes"
+   },
+   "Info": "Paris Saint-Germain's 2001/02 players have been dropped into your starting squad",
+   "Player IDs": "C343 C344 C345 C346 C347 C348 C349 C350 C351 C352 C353 C354 C355 C356 C357 C358 C359 C360",
+   "Manager": "CM41",
+   "Wage budget": "£0",
+   "Transfer budget": "£0",
+   "Transfers": 0
+},
+ {
+   "Date": "07/09/2027",
+   "Title": {
+      "team name": "Peak Ronaldinho"
+   },
+   "Info": "Squad only contains Ronaldinho, circa 2005/06",
+   "Player IDs": "C1085",
+   "Manager": "",
+   "Wage budget": "£400,000",
+   "Transfer budget": "£200,000,000",
+   "Transfers": 17
+},
+ {
+   "Date": "08/09/2027",
+   "Title": {
+      "team name": "World Champions core VII"
+   },
+   "Info": "Starting squad only contains five World Cup winners",
+   "Player IDs": "L56 L81 P800 P2266 P2273",
+   "Manager": "",
+   "Wage budget": "£480,000",
+   "Transfer budget": "£120,000,000",
+   "Transfers": 0
+},
+ {
+   "Date": "09/09/2027",
+   "Title": {
+      "team name": "Eriksen's XVIII"
+   },
+   "Info": "Just one former teammate, but ample investment - and Christian Eriksen taking his first managerial job",
+   "Player IDs": "P2539",
+   "Manager": "CM83",
+   "Wage budget": "£750,000",
+   "Transfer budget": "300,000,000",
+   "Transfers": 17
+},
+ {
+   "Date": "10/09/2027",
+   "Title": {
+      "team name": "Peak FMS"
+   },
+   "Info": "Squad only contains peak Mohamed Salah, Sadio Mane and Roberto Firmino",
+   "Player IDs": "C1095 C1096 C1097",
+   "Manager": "",
+   "Wage budget": "£400,000",
+   "Transfer budget": "£150,000,000",
+   "Transfers": 15
+},
+ {
+   "Date": "11/09/2027",
+   "Title": {
+      "team name": "CF Aquariuses"
+   },
+   "Info": "Starting squad consists of players born between January 20 and February 18",
+   "Player IDs": "P1535 P1567 P1807 P189 P2061 P2141 P22 P2768 P289 P3087 P3125 P3352 P3667 P379 P3797 P399 P576 P669",
+   "Manager": "M28",
+   "Wage budget": "£100,000",
+   "Transfer budget": "£40,000,000",
+   "Transfers": 0
+},
+ {
+   "Date": "12/09/2027",
+   "Title": {
+      "team name": "Adu FC"
+   },
+   "Info": "Starting squad consists solely of a 14-year-old Freddy Adu",
+   "Player IDs": "C1116",
+   "Manager": "",
+   "Wage budget": "£300,000",
+   "Transfer budget": "£250,000,000",
+   "Transfers": 17
+},
+ {
+   "Date": "13/09/2027",
+   "Title": {
+      "team name": "Midtable Transfer Ban IV"
+   },
+   "Info": "Starting squad consists of a mixed-ability group who should sit around midtable - but you you're banned from making transfers for three seasons",
+   "Player IDs": "P1450 P851 P1919 P1182 P2310 P301 P2060 P1208 P413 P177 P1436 P38 P288 P99 P1318 P1376 P2531 P211",
+   "Manager": "M95",
+   "Wage budget": "£150,000",
+   "Transfer budget": "transferban:3",
+   "Transfers": 0
+},
+ {
+   "Date": "14/09/2027",
+   "Title": {
+      "team name": "FC Frugal XI"
+   },
+   "Info": "No players included, only £48m in transfer budget - but a much bigger wage budget",
+   "Player IDs": "",
+   "Manager": "",
+   "Wage budget": "£1,000,000",
+   "Transfer budget": "£48,000,000",
+   "Transfers": 18
+},
+ {
+   "Date": "15/09/2027",
+   "Title": {
+      "team name": "Viva Spurs"
+   },
+   "Info": "Tottenham Hotspur's 2016/17 players have been dropped into your starting squad",
+   "Player IDs": "C235 C236 C237 C238 C239 C240 C241 C242 C243 C244 C245 C246 C247 C248 C249 C250 C251 C252",
+   "Manager": "CM55",
+   "Wage budget": "£0",
+   "Transfer budget": "£0",
+   "Transfers": 0
+},
+ {
+   "Date": "16/09/2027",
+   "Title": {
+      "team name": "The King"
+   },
+   "Info": "No players in your starting squad - but 1990s Kevin Keegan as your manager",
+   "Player IDs": "",
+   "Manager": "CM39",
+   "Wage budget": "£400,000",
+   "Transfer budget": "£200,000,000",
+   "Transfers": 18
+},
+ {
+   "Date": "17/09/2027",
+   "Title": {
+      "team name": "Give Us A V"
+   },
+   "Info": "Starting squad contains players whose surnames start with V",
+   "Player IDs": "P3587 P3596 P3562 P3584 P3549 P3558 P3589 P3580 P3567 P3581 P3553 P3582 P3625 P3597 P3601 P3571 P3619 P3624",
+   "Manager": "M69",
+   "Wage budget": "£0",
+   "Transfer budget": "£0",
+   "Transfers": 0
+},
+ {
+   "Date": "18/09/2027",
+   "Title": {
+      "team name": "Griezmann's XVIII"
+   },
+   "Info": "Just one former teammate, but ample investment - and Antoine Griezmann taking his first managerial job",
+   "Player IDs": "P2012",
+   "Manager": "CM74",
+   "Wage budget": "£750,000",
+   "Transfer budget": "300,000,000",
+   "Transfers": 17
+},
+ {
+   "Date": "19/09/2027",
+   "Title": {
+      "team name": "Midtable Transfer Ban V"
+   },
+   "Info": "Starting squad consists of a mixed-ability group who should sit around midtable - but you you're banned from making transfers for three seasons",
+   "Player IDs": "P320 P3345 P3000 P1237 P78 P62 P2121 P3580 P1226 P3066 P1787 P1123 P689 P1290 P1687 P606 P1697 P1043",
+   "Manager": "M42",
+   "Wage budget": "£150,000",
+   "Transfer budget": "transferban:3",
+   "Transfers": 0
+},
+ {
+   "Date": "20/09/2027",
+   "Title": {
+      "team name": "FC Frugal XII"
+   },
+   "Info": "No players included, only £40m in transfer budget - but a much bigger wage budget",
+   "Player IDs": "",
+   "Manager": "",
+   "Wage budget": "£1,000,000",
+   "Transfer budget": "£40,000,000",
+   "Transfers": 18
+},
+ {
+   "Date": "21/09/2027",
+   "Title": {
+      "team name": "Viva Eagles"
+   },
+   "Info": "Crystal Palace's 2023/24 players have been dropped into your starting squad",
+   "Player IDs": "C685 C686 C687 C688 C689 C690 C691 C692 C693 C694 C695 C696 C697 C698 C699 C700 C701 C702",
+   "Manager": "CM20",
+   "Wage budget": "£0",
+   "Transfer budget": "£0",
+   "Transfers": 0
+},
+ {
+   "Date": "22/09/2027",
+   "Title": {
+      "team name": "Midtable FC 18"
+   },
+   "Info": "Starting squad consists of a mixed-ability group who should scrape midtable",
+   "Player IDs": "P571 P2715 P3160 P496 P1635 P458 P554 P1392 P2539 P3440 P1222 P2328 P896 P3194 P658 P2806 P3680 P479",
+   "Manager": "",
+   "Wage budget": "£0",
+   "Transfer budget": "£0",
+   "Transfers": 0
+},
+ {
+   "Date": "23/09/2027",
+   "Title": {
+      "team name": "Peak Griezmann"
+   },
+   "Info": "Squad only contains Antoine Griezmann, circa 2015/16",
+   "Player IDs": "C1086",
+   "Manager": "",
+   "Wage budget": "£400,000",
+   "Transfer budget": "£200,000,000",
+   "Transfers": 17
+},
+ {
+   "Date": "24/09/2027",
+   "Title": {
+      "team name": "Isco's XVIII"
+   },
+   "Info": "Just one former teammate, but ample investment - and Isco taking his first managerial job",
+   "Player IDs": "P2457",
+   "Manager": "CM77",
+   "Wage budget": "£750,000",
+   "Transfer budget": "300,000,000",
+   "Transfers": 17
+},
+ {
+   "Date": "25/09/2027",
+   "Title": {
+      "team name": "LMCR FC"
+   },
+   "Info": "Squad consists solely of peak Lionel Messi and Cristiano Ronaldo - with only five transfers",
+   "Player IDs": "C1081 C1082",
+   "Manager": "",
+   "Wage budget": "£200,000",
+   "Transfer budget": "£150,000,000",
+   "Transfers": 5
+},
+ {
+   "Date": "26/09/2027",
+   "Title": {
+      "team name": "Talent Factory: LE"
+   },
+   "Info": "No transfers in your first season, no starting squad - but the money to build a Category A academy with Luis Enrique in charge",
+   "Player IDs": "",
+   "Manager": "M62",
+   "Wage budget": "£30,000",
+   "Transfer budget": "£100,000,000",
+   "Transfers": 0
+},
+ {
+   "Date": "27/09/2027",
+   "Title": {
+      "team name": "10-year ban III"
+   },
+   "Info": "Starting squad is elite... but you have a 10-year transfer ban and have to manage how you evolve your team",
+   "Player IDs": "P880 P2614 P3043 P2273 P1627 P1275 P519 P2496 P3612 P2696 P1294 P284 P2209 P1509 P3347 P297 P988 P2088",
+   "Manager": "M62",
+   "Wage budget": "£0",
+   "Transfer budget": "transferban:10",
+   "Transfers": 0
+},
+ {
+   "Date": "28/09/2027",
+   "Title": {
+      "team name": "French core V"
+   },
+   "Info": "Starting squad only contains four world-class Frenchmen",
+   "Player IDs": "L86 L65 P1001 P1846",
+   "Manager": "",
+   "Wage budget": "£400,000",
+   "Transfer budget": "£100,000,000",
+   "Transfers": 0
+},
+ {
+   "Date": "29/09/2027",
+   "Title": {
+      "team name": "Peters, etc."
+   },
+   "Info": "Starting squad consists of players called Peter, Pierre, Pedro or any equivalent",
+   "Player IDs": "P1450 P3388 P3642 P1996 P2744 P1179 P398 P2746 P1566 P1957 P933 P2808 P2750 P2489 P1376 P201 P2900 P2748",
+   "Manager": "M86",
+   "Wage budget": "£100,000",
+   "Transfer budget": "£50,000,000",
+   "Transfers": 0
+},
+ {
+   "Date": "30/09/2027",
+   "Title": {
+      "team name": "Midtable FC 19"
+   },
+   "Info": "Starting squad consists of a mixed-ability group who should scrape midtable",
+   "Player IDs": "P3027 P3124 P1251 P877 P977 P2418 P938 P3371 P22 P3449 P696 P3029 P1148 P1093 P2860 P1412 P1040 P811",
+   "Manager": "",
+   "Wage budget": "£0",
+   "Transfer budget": "£0",
+   "Transfers": 0
+},
+ {
+   "Date": "01/10/2027",
+   "Title": {
+      "team name": "Give Us A W"
+   },
+   "Info": "Starting squad contains players whose surnames start with W",
+   "Player IDs": "P3648 P3706 P3640 P3646 P3670 P3658 P3678 P3681 P3667 P3699 P3651 P3684 P3693 P3687 P3643 P3685 P3680 P3704",
+   "Manager": "M46",
+   "Wage budget": "£0",
+   "Transfer budget": "£0",
+   "Transfers": 0
+},
+ {
+   "Date": "02/10/2027",
+   "Title": {
+      "team name": "Atletico Alliteration"
+   },
+   "Info": "Starting squad contains players with alliterative first and surnames",
+   "Player IDs": "P851 P2978 P3063 P236 P977 P3436 P2968 P2322 P1474 P699 P2918 P1148 P2266 P2122 P1748 P2950 P1105 P2050",
+   "Manager": "M92",
+   "Wage budget": "£100,000",
+   "Transfer budget": "£0",
+   "Transfers": 0
+},
+ {
+   "Date": "03/10/2027",
+   "Title": {
+      "team name": "De Bruyne's XVIII"
+   },
+   "Info": "Just one former teammate, but ample investment - and Kevin De Bruyne taking his first managerial job",
+   "Player IDs": "P980",
+   "Manager": "CM73",
+   "Wage budget": "£750,000",
+   "Transfer budget": "300,000,000",
+   "Transfers": 17
+},
+ {
+   "Date": "04/10/2027",
+   "Title": {
+      "team name": "Peak GG/AP"
+   },
+   "Info": "Squad only contains peak Gennaro Gattuso and Andrea Pirlo",
+   "Player IDs": "C1103 C1104",
+   "Manager": "",
+   "Wage budget": "£400,000",
+   "Transfer budget": "£160,000,000",
+   "Transfers": 16
+},
+ {
+   "Date": "05/10/2027",
+   "Title": {
+      "team name": "The Wheeler Dealer"
+   },
+   "Info": "No players in your starting squad - but 2000s Harry Redknapp as your manager",
+   "Player IDs": "",
+   "Manager": "CM43",
+   "Wage budget": "£400,000",
+   "Transfer budget": "£200,000,000",
+   "Transfers": 18
+},
+ {
+   "Date": "06/10/2027",
+   "Title": {
+      "team name": "Viva Gtech"
+   },
+   "Info": "Brentford's 2020/21 players have been dropped into your starting squad",
+   "Player IDs": "C100 C101 C102 C103 C104 C105 C106 C107 C108 C91 C92 C93 C94 C95 C96 C97 C98 C99",
+   "Manager": "CM14",
+   "Wage budget": "£0",
+   "Transfer budget": "£0",
+   "Transfers": 0
+},
+ {
+   "Date": "07/10/2027",
+   "Title": {
+      "team name": "CF Pisces"
+   },
+   "Info": "Starting squad consists of players born between February 19 and March 20",
+   "Player IDs": "P1447 P1529 P163 P1970 P2069 P2322 P2466 P2489 P2539 P2793 P3260 P3391 P581 P740 P75 P792 P822 P855",
+   "Manager": "M29",
+   "Wage budget": "£100,000",
+   "Transfer budget": "£40,000,000",
+   "Transfers": 0
+},
+ {
+   "Date": "08/10/2027",
+   "Title": {
+      "team name": "FC Frugal XIII"
+   },
+   "Info": "No players included, only £42m in transfer budget - but a much bigger wage budget",
+   "Player IDs": "",
+   "Manager": "",
+   "Wage budget": "£1,000,000",
+   "Transfer budget": "£42,000,000",
+   "Transfers": 0
+},
+ {
+   "Date": "09/10/2027",
+   "Title": {
+      "team name": "L'Imperatore"
+   },
+   "Info": "Starting squad consists solely of peak Adriano",
+   "Player IDs": "C1117",
+   "Manager": "",
+   "Wage budget": "£300,000",
+   "Transfer budget": "£250,000,000",
+   "Transfers": 17
+},
+ {
+   "Date": "10/10/2027",
+   "Title": {
+      "team name": "Starts and Ends VI"
+   },
+   "Info": "Starting squad consists of players whose first name and surname start with the same letter",
+   "Player IDs": "P184 P3240 P2672 P1932 P78 P2584 P2218 P3052 P2913 P93 P3066 P823 P3033 P1121 P2485 P3224 P793 P3385",
+   "Manager": "M5",
+   "Wage budget": "£0",
+   "Transfer budget": "£0",
+   "Transfers": 0
+},
+ {
+   "Date": "11/10/2027",
+   "Title": {
+      "team name": "Sell to buy: CB edition"
+   },
+   "Info": "Starting squad consists purely of centre-backs - and no budget",
+   "Player IDs": "P3050 P1275 P2418 P2856 P2289 P3558 P1794 P1795 P1998 P2149 P3163 P156 P42 P608 P1178 P1804 P2172 P2510",
+   "Manager": "M34",
+   "Wage budget": "£0",
+   "Transfer budget": "£0",
+   "Transfers": 18
+},
+ {
+   "Date": "12/10/2027",
+   "Title": {
+      "team name": "77 City"
+   },
+   "Info": "Starting squad consists of 77-rated players",
+   "Player IDs": "P399 P625 P58 P164 P56 P63 P70 P203 P134 P87 P347 P84 P189 P241 P664 P1169 P121 P180",
+   "Manager": "M82",
+   "Wage budget": "£100,000",
+   "Transfer budget": "£50,000,000",
+   "Transfers": 2
+},
+ {
+   "Date": "13/10/2027",
+   "Title": {
+      "team name": "City Ground vs. the World"
+   },
+   "Info": "Start the season with minus 4 points and a squad of players who have played for Nottingham Forest",
+   "Player IDs": "P3158 P1525 P2417 P58 P3681 P2289 P2418 P2509 P3078 P2120 P1308 P3726 P983 P2568 P1093 P1585 P3704 P272",
+   "Manager": "M82",
+   "Wage budget": "£100,000",
+   "Transfer budget": "pointsdeduction:4",
+   "Transfers": 0
+},
+ {
+   "Date": "14/10/2027",
+   "Title": {
+      "team name": "10-year ban IV"
+   },
+   "Info": "Starting squad is elite... but you have a 10-year transfer ban and have to manage how you evolve your team",
+   "Player IDs": "P880 P2614 P3043 P2273 P1627 P1275 P519 P2496 P3612 P2696 P1294 P3206 P284 P2209 P1509 P3347 P1186 P297",
+   "Manager": "M77",
+   "Wage budget": "£0",
+   "Transfer budget": "transferban:5",
+   "Transfers": 0
+},
+ {
+   "Date": "15/10/2027",
+   "Title": {
+      "team name": "Frontline sorted V"
+   },
+   "Info": "Starting squad only has a 85+ front three - and room for four transfers - with the academy left to fill the gaps",
+   "Player IDs": "L85 P1509 P2711",
+   "Manager": "",
+   "Wage budget": "£220,000",
+   "Transfer budget": "£150,000,000",
+   "Transfers": 0
+},
+ {
+   "Date": "16/10/2027",
+   "Title": {
+      "team name": "Viva Jose"
+   },
+   "Info": "Porto's 2003/04 players have been dropped into your starting squad",
+   "Player IDs": "C955 C956 C957 C958 C959 C960 C961 C962 C963 C964 C965 C966 C967 C968 C969 C970 C971 C972",
+   "Manager": "CM42",
+   "Wage budget": "£0",
+   "Transfer budget": "£0",
+   "Transfers": 4
+},
+ {
+   "Date": "17/10/2027",
+   "Title": {
+      "team name": "Give Us A Z"
+   },
+   "Info": "Starting squad contains players whose surnames start with Z",
+   "Player IDs": "P3776 P3778 P3764 P3766 P3749 P3796 P3775 P3793 P3758 P3797 P3760 P3782 P3763 P3780 P3770 P3753 P3767 P3789",
+   "Manager": "M126",
+   "Wage budget": "£0",
+   "Transfer budget": "£0",
+   "Transfers": 0
+},
+ {
+   "Date": "18/10/2027",
+   "Title": {
+      "team name": "Midtable FC 20"
+   },
+   "Info": "Starting squad consists of a mixed-ability group who should scrape midtable",
+   "Player IDs": "P3158 P184 P3394 P1268 P2149 P1792 P1261 P3366 P263 P2184 P1989 P1452 P533 P2948 P2822 P3117 P1396 P3624",
+   "Manager": "",
+   "Wage budget": "£0",
+   "Transfer budget": "£0",
+   "Transfers": 0
+},
+ {
+   "Date": "19/10/2027",
+   "Title": {
+      "team name": "Cahill's XVIII"
+   },
+   "Info": "Just one former teammate, but ample investment - and Gary Cahill taking his first managerial job",
+   "Player IDs": "P1148",
+   "Manager": "CM78",
+   "Wage budget": "£750,000",
+   "Transfer budget": "300,000,000",
+   "Transfers": 17
+}
+]
