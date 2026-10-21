@@ -1,10 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5681221553857000"
-     crossorigin="anonymous"></script>
-	
     <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
 <link rel="preload" as="image" href="https://res.cloudinary.com/ded8l05a/image/upload/v1791325679/dugout.png">
@@ -623,6 +619,21 @@ button:disabled { opacity: 0.6; }
 .mdx-lose { color: #e0645a; font-size: 0.9rem; font-weight: bold; }
 .mdx-draw { color: #e0a04a; font-size: 0.9rem; font-weight: bold; }
 
+/* ---------- HOW TO PLAY & DISCLAIMER ---------- */
+#howto-modal { z-index: 1002; }
+.howto-text p { font-size: 0.88rem; line-height: 1.55; margin-bottom: 12px; }
+
+#setup-screen .howto-btn {
+    width: auto; align-self: center; margin: -6px 0 18px;
+    padding: 7px 16px; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.06em;
+    background: transparent; color: var(--text-muted); border: 1px solid var(--border-color);
+}
+
+#setup-screen .site-disclaimer {
+    margin-top: auto; padding: 28px 4px 8px;
+    font-size: 0.62rem; line-height: 1.5; color: var(--text-muted); text-align: center; opacity: 0.8;
+}
+
 </style>
 <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
 </head>
@@ -646,7 +657,20 @@ button:disabled { opacity: 0.6; }
         <div id="daily-modal-content"></div>
     </div>
 </div>
-
+<div class="modal-overlay" id="howto-modal" onclick="if (event.target === this) closeHowTo()">
+    <div class="modal">
+        <div class="daily-date">Run This Club</div>
+        <div class="daily-title">How to Play</div>
+        <div class="howto-text">
+            <p>Welcome to the dugout: can you lead a team up the league and establish a dynasty over a decade?</p>
+            <p>Every decision you make will define how your team performs on the pitch – from drafting your squad and paying attention to the tactical nuances of who you sign, to staying one step ahead of contracts and transfer budgets.</p>
+            <p>Just hit Simulate Season when you're ready to take on the campaign.</p>
+        </div>
+        <div class="modal-btn-group">
+            <button class="btn-warning" onclick="closeHowTo()">Let's go</button>
+        </div>
+    </div>
+</div>
     <div id="loading-screen">
         <div class="loader"></div>
         <h2>Loading</h2>
@@ -655,7 +679,7 @@ button:disabled { opacity: 0.6; }
 
 <div id="setup-screen">
     <h1 class="home-title">Run This Club</h1>
-
+<button type="button" class="howto-btn" onclick="openHowTo()">How to Play</button>
     <div class="club-row">
         <input type="text" id="club-name-input" placeholder="Name your club" maxlength="20">
         <button type="button" class="shirt-btn" onclick="cycleShirtStyle()" aria-label="Change shirt style">
@@ -698,6 +722,8 @@ button:disabled { opacity: 0.6; }
             <span>Worldwide players</span>
         </label>
     </div>
+
+    <p class="site-disclaimer">This game is an independent, fan-made football management simulator. It is not affiliated with, endorsed by, sponsored by, or officially associated with any real-world football club, league, player association, governing body, or game publisher. All player names, ratings, statistics, and club references are used solely for informational and descriptive purposes. We do not use official crests, logos, player likenesses, or proprietary branding. All trademarks, trade names, and intellectual property remain the sole property of their respective owners.</p>
 </div>
 
     <div id="manager-setup-screen">
@@ -8263,6 +8289,10 @@ resetForNextSeason = function () {
     mdOrigReset3();
 };
 // ===================== END UPDATE 5 =====================
+// ---------- HOW TO PLAY POP-UP ----------
+function openHowTo() { document.getElementById('howto-modal').classList.add('active'); }
+function closeHowTo() { document.getElementById('howto-modal').classList.remove('active'); }
+document.addEventListener('keydown', e => { if (e.key === 'Escape') closeHowTo(); });
 
 window.onload = () => {
     document.getElementById('loading-screen').style.display = 'none';
